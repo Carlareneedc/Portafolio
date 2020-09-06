@@ -1,0 +1,25 @@
+.retrato {
+    display: flex;
+    justify-content: left;
+    margin-left: 8%;
+    margin-top: 5%;
+    width: 47.2%;
+}
+
+@media screen and (max-width: 320px) {
+    .retrato {
+        width: 56vw;
+        display: flex;
+        justify-content: center;
+        margin-left: 29%;
+    }
+}
+
+ /* @media screen and (max-width: 375px){
+    .retrato {
+        width: 56vw;
+        display: flex;
+        justify-content: center;
+        margin-left: 24%;
+    }
+}*/

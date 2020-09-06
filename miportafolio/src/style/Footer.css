@@ -1,0 +1,80 @@
+.contenedorFooter {
+    width: 100%;
+    height: 13vh;
+    background: #2C948D;
+    margin-top: 6%;
+}
+
+.textoFooter {
+    font-family: Merriweather;
+    font-weight: 300;
+    font-size: 1em;
+    color: #FFFFFF;
+    margin-left: 5.5%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2.2%;
+}
+
+.carlaDiaz {
+    font-weight: bold;
+}
+
+.bolaCristal{
+    font-size: 1.8em;
+    margin-top: -1%;
+}
+
+.inconosFooter{
+    display: flex;
+    margin-top: -4.4%;
+    justify-content: space-evenly;
+    width: 15%;
+    margin-left: 79.6%;
+}
+
+@media screen and (max-width: 320px){
+    .contenedorFooter{
+        width: 122%;
+        height: 25vh;
+    }
+
+    .textoFooter{
+        text-align: center;
+        padding-top: 21%;
+
+    }
+
+    .carlaDiaz{
+
+    }
+
+    .inconosFooter{
+        margin-left: 40.5%;
+    margin-top: -28%;
+    }
+}
+
+/* @media screen and (max-width: 375px){
+    .contenedorFooter{
+        width: 122%;
+        height: 27vh;
+    }
+
+    .textoFooter{
+        text-align: center;
+        padding-top: 21%;
+        margin-left: 10%;
+    }
+
+    .carlaDiaz{
+
+    }
+
+    .inconosFooter{
+        margin-left: 25.5%;
+        margin-top: -26%;
+        width: 46%;
+    } 
+}*/
+

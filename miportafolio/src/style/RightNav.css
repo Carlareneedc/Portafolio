@@ -1,0 +1,28 @@
+.proyectos{
+    margin-left: 9.5%;
+    font-size: 22px;
+}
+.sobreMi{
+    margin-left: 9%;
+    font-size: 22px;
+}
+.contacto{
+   
+    margin-left: 2%;
+    margin-top: -2%;
+}
+.inicio{
+    font-size: 22px;
+    color: #595959;
+    text-decoration: none;
+}
+
+.pro{
+    color: #595959;
+}
+
+.pro:active, .pro:focus, .pro:hover, .inicioPro{
+    color: #FF3C38;
+    text-decoration: overline;
+}
+

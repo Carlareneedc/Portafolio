@@ -1,0 +1,400 @@
+.contenedorMayorInicio {
+    margin-top: 10%;
+}
+
+.puntos {
+    margin-top: -14%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.puntosRes {
+    display: none;
+}
+
+.hola {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 52%;
+    display: flex;
+    align-items: center;
+    color: #595959;
+    margin-left: -9%;
+}
+
+.contenedorTextoInicio {
+    display: flex;
+    justify-content: center;
+    margin-top: -25%;
+}
+
+.carla {
+    font-weight: 900;
+    color: #595959;
+
+}
+
+.textoInicio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    line-height: 124%;
+    color: #000000;
+    margin-left: -1%;
+}
+
+.contenedorTextoInicioDos {
+    display: flex;
+    align-items: center;
+    margin-left: 37%;
+    margin-top: 3%;
+
+}
+
+.textoSubrayado {
+    position: absolute;
+    width: 24%;
+    height: -2vh;
+    left: 56%;
+    top: 57.5%;
+    background: rgba(37, 222, 178, 0.3);
+    border-radius: 15px;
+
+}
+
+.soyUna {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    color: #000000;
+    width: 64%;
+    line-height: 36px;
+    text-align: initial;
+
+}
+
+.contenedorTextoSoyUna {
+    display: flex;
+    justify-content: center;
+    margin-left: 22.2%;
+}
+
+.textoProyectos {
+    font-size: 1.7em;
+    font-family: Merriweather;
+    color: #595959;
+}
+
+.ctnPro {
+    flex-direction: column;
+    display: flex;
+    margin-top: 13%;
+}
+
+.ctnProComp {
+    margin-top: 2%;
+}
+
+.lineaRoja {
+    position: absolute;
+    width: 7%;
+    background: #D50019;
+    margin-left: 36.3%;
+    margin-top: 1.5%;
+}
+
+.lineaRojaDos {
+    position: absolute;
+    width: 7%;
+    background: #D50019;
+    margin-left: 57%;
+    margin-top: -1.7%;
+}
+
+.contTePuedo {
+    display: flex;
+    flex-direction: column;
+}
+
+.tePuedoAyudar {
+    font-family: 'Montserrat', sans-serif;
+    color: #595959;
+    font-size: 1.7em;
+    line-height: 140%;
+    margin-top: 5%;
+}
+
+.lineaRojaTres {
+    position: absolute;
+    width: 6%;
+    background: #D50019;
+    margin-left: 29.3%;
+    margin-top: 1.5%;
+}
+
+.lineaRojaCuatro {
+    position: absolute;
+    width: 6%;
+    background: #D50019;
+    margin-left: 65%;
+    margin-top: -1.5%;
+}
+
+.tags {
+    display: flex;
+    justify-content: space-evenly;
+    width: 71%;
+    margin-left: 14.7%;
+    margin-top: 2%;
+
+}
+
+
+.tagUno,
+.tagDos,
+.tagTres,
+.tagCuatro,
+.tagCinco,
+.tagSeis {
+    font-family: Montserrat;
+    font-weight: 600;
+    border-radius: 25px;
+    width: 129px;
+    height: 41px;
+    background: rgba(37, 222, 178, 0.3);
+    padding-top: 1%;
+}
+
+@media screen and (max-width: 320px) {
+    .puntos {
+        display: none;
+    }
+
+    .puntosRes {
+        display: block;
+        margin-left: 5%;
+        width: 88%;
+        margin-top: -1%;
+    }
+
+    .puntosresP {
+        width: 125%;
+    }
+
+    .hola {
+        font-size: 1.6em;
+        margin-left: 18%;
+    }
+
+    .contenedorTextoInicio {
+        margin-top: -102%;
+
+    }
+
+    .contenedorTextoInicioDos {
+        width: 94%;
+        margin-left: 14%;
+        margin-top: 12%;
+        line-height: 190%;
+    }
+
+    .contenedorTextoSoyUna {
+        width: 100%;
+
+    }
+
+    .textoInicio {
+
+        line-height: 203%;
+
+
+    }
+
+    .soyUna {
+        width: 105%;
+        text-align: center;
+        line-height: 190%;
+        margin-left: -17%;
+        margin-top: -4%;
+    }
+
+    .textoSubrayado {
+        margin-top: 37.4%;
+        width: 94%;
+        margin-left: -42%;
+
+    }
+
+    .ctnPro {
+        margin-left: 25%;
+    }
+
+    .textoProyectos {
+        font-size: 1.6em;
+    }
+
+    .lineaRoja {
+        margin-top: 5.5%;
+        width: 17%;
+        margin-left: -3%;
+    }
+
+    .lineaRojaDos {
+        margin-top: -6%;
+        width: 17%;
+        margin-left: 61%;
+    }
+
+    .contTePuedo {
+        width: 100%;
+
+    }
+
+    .tePuedoAyudar {
+        font-size: 1.5em;
+        margin-left: 21%;
+
+    }
+
+    .lineaRojaTres {
+        margin-left: -15%;
+        margin-top: 6%;
+        width: 12%;
+    }
+
+    .lineaRojaCuatro {
+        margin-top: -14.7%;
+        width: 12%;
+        margin-left: 83%;
+    }
+
+    .tags {
+        width: 85%;
+        margin-left: 18.7%;
+        flex-flow: wrap;
+    }
+
+}
+
+ /* @media screen and (max-width: 375px) {
+    .puntos {
+        display: none;
+    }
+
+    .puntosRes {
+        display: block;
+        margin-left: 5%;
+        width: 88%;
+        margin-top: 1%;
+    }
+
+    .puntosresP {
+        width: 120%;
+    }
+
+    .hola {
+        font-size: 1.6em;
+        margin-left: 12%;
+    }
+
+    .contenedorTextoInicio {
+        margin-top: -97%;
+
+    }
+
+    .contenedorTextoInicioDos {
+        width: 94%;
+        margin-left: 11%;
+        margin-top: 12%;
+        line-height: 190%;
+    }
+
+    .contenedorTextoSoyUna {
+        width: 95%;
+
+    }
+
+    .textoInicio {
+
+        line-height: 203%;
+
+
+    }
+
+    .soyUna {
+        width: 98%;
+        text-align: center;
+        line-height: 190%;
+        margin-left: -22%;
+        margin-top: 12%;
+    }
+
+    .textoSubrayado {
+        margin-top: 36.4%;
+        width: 83%;
+        margin-left: -40%;
+    }
+
+    .ctnPro {
+        margin-left: 21%;
+        margin-top: 17%;
+    }
+
+    .textoProyectos {
+        font-size: 1.6em;
+    }
+
+    .lineaRoja {
+        margin-top: 5.5%;
+        width: 17%;
+        margin-left: -3%;
+    }
+
+    .lineaRojaDos {
+        margin-top: -6%;
+        width: 17%;
+        margin-left: 61%;
+    }
+
+    .contTePuedo {
+        width: 100%;
+        margin-top: 5%;
+
+    }
+
+    .tePuedoAyudar {
+        font-size: 1.5em;
+        margin-left: 10%;
+        width: 97%;
+    }
+
+.lineaRojaTres {
+    margin-left: -6%;
+    margin-top: 5%;
+    width: 12%;
+}
+
+.lineaRojaCuatro {
+    margin-top: -3.8%;
+    width: 12%;
+    margin-left: 91%;
+}
+
+.tags {
+    width: 85%;
+    margin-left: 15.7%;
+    flex-flow: wrap;
+}
+
+.tagUno,
+.tagDos,
+.tagTres,
+.tagCuatro,
+.tagCinco,
+.tagSeis{
+    padding-top: 3%;
+}
+
+}*/

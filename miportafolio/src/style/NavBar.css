@@ -1,0 +1,32 @@
+
+/*.contenido{
+    display: flex;
+    flex-flow: row;
+    margin-top: -4%;
+    justify-content: space-around;
+    margin: 34%;
+    margin-top: -2%;
+    list-style: none;
+}
+.logoNav{
+    display: flex;
+    width: 90%;
+    margin-left: 7%;
+
+}
+.logo{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    width: 5%;
+}
+.nav{
+    display: flex; 
+}
+.navBar{
+    margin-top: 1%;
+}
+.li{
+    display: flex; 
+}*/
+
