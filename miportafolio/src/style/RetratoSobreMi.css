@@ -1,0 +1,16 @@
+.retratoDos {
+    display: flex;
+    margin-left: 26.5%;
+    margin-top: 3%;
+    width: 37.2%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 320px) {
+    .retrato {
+        width: 56vw;
+        display: flex;
+        justify-content: center;
+        margin-left: 29%;
+    }
+}

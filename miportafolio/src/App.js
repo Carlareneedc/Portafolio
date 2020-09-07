@@ -23,13 +23,15 @@ function App() {
         <Route path="/" exact>
           <Navbar/>
           <Inicio/>
-        {/*<Grids/>*/}
+         <Grids/>
         </Route>
         {/*<Route path="/Proyectos" >
           </Route>*/}
         <Route path="/SobreMi" exact>
+          
         <Navbar/>
-          <SobreMi/>
+        <SobreMi/>
+        <Grids/> 
         </Route>
         
       </Switch>

@@ -9,7 +9,8 @@ function Grids() {
     return (
         <div>
         <div className="gridsNoRes "> <img className="grids" alt="grids" src={grids}/></div>
-        <div className="grids"> <img className="grids" alt="grids" src={gridsresponsive}/></div>
+   
+      {/*<div className="grids"> <img className="grids" alt="grids" src={gridsresponsive}/></div>*/}
   
 </div>
        

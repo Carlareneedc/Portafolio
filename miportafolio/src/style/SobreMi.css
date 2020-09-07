@@ -1,0 +1,146 @@
+.puntosSobreMi {
+    display: flex;
+    justify-content: center;
+}
+
+.puntosSobreMiImg {
+    width: 85vw;
+    margin-top: -5%;
+}
+
+.encabezadoTextoSobreMi {
+    display: flex;
+    justify-content: center;
+    margin-top: -23%;
+    text-align: center;
+}
+
+.unPoco {
+    font-family: Merriweather;
+    font-weight: normal;
+    font-size: 1.7em;
+    line-height: 35px;
+    color: #595959;
+
+}
+
+.lineaRojaSobreMi {
+    position: absolute;
+    width: 7%;
+    background: #D50019;
+    margin-left: -7.7%;
+    margin-top: 1.2%;
+}
+
+.lineaRojaSobreMiDos {
+    position: absolute;
+    width: 7%;
+    background: #D50019;
+    margin-left: 32%;
+    margin-top: 1.2%;
+}
+
+.contenedorTextoSobreMi {
+    display: flex;
+    justify-content: center;
+}
+
+.miNombreEs {
+    font-family: Montserrat;
+    font-size: 1em;
+    font-size: 1em;
+    text-align: center;
+    width: 79%;
+    margin-top: 1%;
+    line-height: 30px;
+}
+
+.carlaDiazDos {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.contenedorDisfruto {
+    display: flex;
+    justify-content: center;
+}
+
+.disfruto {
+    font-family: Montserrat;
+    font-size: 1em;
+    text-align: center;
+    width: 79%;
+    line-height: 30px;
+}
+
+.btnVerCurri {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.verCurri {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #FFFFFF;
+    background: #FF3C38;
+    border-radius: 8px;
+    border: none;
+    width: 14%;
+    height: 9vh;
+}
+
+.contenedorMotivaciones {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+.autodidacta {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.crearDiferentes {
+    font-weight: 600;
+}
+
+.siBien {
+    margin-left: 2%;
+}
+
+.contenedorCardText {
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 2%;
+}
+
+.educacionHabilidades {
+    margin-top: 5%;
+
+}
+
+.educacion {}
+
+.educacionTexto {
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #595959;
+}
+
+.bootcamp {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #000000;
+    font-size:1em;
+}
+
+.frontEnd{
+    
+}
