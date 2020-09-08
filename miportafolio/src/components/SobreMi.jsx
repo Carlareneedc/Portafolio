@@ -3,6 +3,13 @@ import RetratoSobreMi from '../components/RetratoSobreMi'
 import puntosSobreMi from'../assets/img/puntosabout.png'
 import '../style/SobreMi.css'
 import {Card} from 'react-bootstrap'
+import calendar from '../assets/img/calendar.png'
+import photoshop from '../assets/img/photoshop.png'
+import illustrator from '../assets/img/illustrator.png'
+import figma from '../assets/img/figma.png'
+import boostrap from '../assets/img/boostrap.png'
+import githubdos from '../assets/img/github.png'
+import invision from '../assets/img/invission.png'
 
 
 function SobreMi () {
@@ -28,7 +35,67 @@ function SobreMi () {
   </Card.Body>
 </Card>
             </div>
-            <div className="educacionHabilidades"><div className="educacion"><h1 className="educacionTexto">Educación</h1></div><p className="bootcamp">Bootcamp Laboratoria</p><p className="frontEnd">Frontend Developer</p></div>
+            <div className="educacionHabilidades">
+                <div className="educacion">
+                    <h1 className="educacionTexto">Educación</h1>
+                    </div><p className="bootcamp">Bootcamp Laboratoria</p>
+                    <p className="frontEnd">Frontend Developer</p>
+                    <div>
+                        <img className="calendar" alt="calendar" src={calendar}/>
+                        <p className="marzoSeptiembre">Marzo - Septiembre 2020</p>
+                    </div>
+                    <p className="universidad">Universidad UNIACC</p>
+                    <p className="diplomado">Diplomado en Gestión Cultural</p>
+                    <div><img className="calendar" alt="calendar" src={calendar}/>
+                    <p className="noviembre">Noviembre 2012</p>
+                    </div>
+                    <p className="universidad">Universidad UNIACC</p>
+                    <p className="artes">Artes Visuales y Fotografía</p>
+                    <div><img className="calendar" alt="calendar" src={calendar}/>
+                    <p className="marzoNoviembre">Marzo 2008 - Noviembre 2012</p>
+                    </div>
+                    <div className="habilidades">
+                        <h1 className="habilidadesTexto">Habilidades</h1>
+                        <div className="tagSobreMi">
+                            <p className="design">Design Thinking</p>
+                            <p className="dcu">Metodología DCU</p>
+                            <p className="wire">Wireframing</p>
+                            <p className="css">CSS</p>
+                            <p className="user">User persona</p>
+                            <p className="bench">Benchmark</p>
+                            <p className="html">HTML</p>
+                            <p className="react">React</p>
+                            <p className="js">JavaScript</p>
+                        </div>
+                        <h1 className="habilidadesBlandas">Habilidades Blandas</h1>
+                        <div className="tagHabilidades">
+                            <p className="empatica">Empática</p>
+                            <p className="reflexiva">Reflexiva</p>
+                            <p className="analitica">Analítica</p>
+                            <p className="adaptable">Adaptable</p>
+                            <p className="sociable">Sociable</p>
+                            <p className="creativa">Creativa</p>
+                        </div>
+                    </div>
+            </div>
+            <div className="herramientas">
+                <p className="textoHerramientas">Herramientas</p>
+                <div className="contenedorHerramientas">
+                <div><img className="photoshop" alt="photoshop" src={photoshop}/>
+                <p className="photo">Photoshop</p></div>
+                <div><img className="illustrator" alt="illustrator" src={illustrator}/>
+                <p className="ilus">Illustrator</p></div>
+                <div><img className="figma" alt="figma" src={figma}/>
+                <p className="fig">Figma</p></div>
+                <div><img className="boostrap" alt="boostrap" src={boostrap}/>
+                <p className="boos">Boostrap</p></div>
+                <div><img className="githubdos" alt="githubdos" src={githubdos}/>
+                <p className="gitDos">GitHub</p></div>
+                <div><img className="invision" alt="invision" src={invision}/>
+                <p className="inv">InVision</p></div>
+
+                </div>
+                </div>
         </div>
     );
 }
