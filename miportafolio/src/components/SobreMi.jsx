@@ -38,21 +38,29 @@ function SobreMi () {
             <div className="educacionHabilidades">
                 <div className="educacion">
                     <h1 className="educacionTexto">Educación</h1>
-                    </div><p className="bootcamp">Bootcamp Laboratoria</p>
+                    
+                    <p className="bootcamp">Bootcamp Laboratoria</p>
+                    <div className="bootcampLab">
                     <p className="frontEnd">Frontend Developer</p>
-                    <div>
+                    <div className="fechas">
                         <img className="calendar" alt="calendar" src={calendar}/>
-                        <p className="marzoSeptiembre">Marzo - Septiembre 2020</p>
+                        <p className="marzoSeptiembre"> &nbsp; Marzo - Septiembre 2020</p>
+                    </div>
                     </div>
                     <p className="universidad">Universidad UNIACC</p>
+                    <div className="uniacc">
                     <p className="diplomado">Diplomado en Gestión Cultural</p>
-                    <div><img className="calendar" alt="calendar" src={calendar}/>
-                    <p className="noviembre">Noviembre 2012</p>
+                    <div className="fechasDos"><img className="calendar" alt="calendar" src={calendar}/>
+                    <p className="noviembre"> &nbsp; Noviembre 2012</p>
+                    </div>
                     </div>
                     <p className="universidad">Universidad UNIACC</p>
+                    <div className="artesVisuales">
                     <p className="artes">Artes Visuales y Fotografía</p>
-                    <div><img className="calendar" alt="calendar" src={calendar}/>
-                    <p className="marzoNoviembre">Marzo 2008 - Noviembre 2012</p>
+                    <div className="fechasTres"><img className="calendar" alt="calendar" src={calendar} />
+                    <p className="marzoNoviembre"> &nbsp; Marzo 2008 - Noviembre 2012</p>
+                    </div>
+                    </div>
                     </div>
                     <div className="habilidades">
                         <h1 className="habilidadesTexto">Habilidades</h1>
@@ -81,18 +89,21 @@ function SobreMi () {
             <div className="herramientas">
                 <p className="textoHerramientas">Herramientas</p>
                 <div className="contenedorHerramientas">
-                <div><img className="photoshop" alt="photoshop" src={photoshop}/>
+                <div className="ph"><div className="herrP"><img className="photoshop" alt="photoshop" src={photoshop}/>
                 <p className="photo">Photoshop</p></div>
-                <div><img className="illustrator" alt="illustrator" src={illustrator}/>
-                <p className="ilus">Illustrator</p></div>
-                <div><img className="figma" alt="figma" src={figma}/>
+                <div className="ill"><img className="illustrator" alt="illustrator" src={illustrator}/>
+                <p className="ilus">Illustrator</p></div></div>
+                <div className="fi">
+                <div className="figm"><img className="figma" alt="figma" src={figma}/>
                 <p className="fig">Figma</p></div>
-                <div><img className="boostrap" alt="boostrap" src={boostrap}/>
-                <p className="boos">Boostrap</p></div>
-                <div><img className="githubdos" alt="githubdos" src={githubdos}/>
+                <div className="trap"><img className="boostrap" alt="boostrap" src={boostrap}/>
+                <p className="boos">Boostrap</p></div></div>
+                <div className="giHu">
+               <div className="gtd"><img className="githubdos" alt="githubdos" src={githubdos}/>
                 <p className="gitDos">GitHub</p></div>
-                <div><img className="invision" alt="invision" src={invision}/>
+                <div className="invA"><img className="invision" alt="invision" src={invision}/>
                 <p className="inv">InVision</p></div>
+                </div>
 
                 </div>
                 </div>
