@@ -33,13 +33,37 @@
     z-index: -3;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .etiquetaUno,
+    .etiquetaTres,
+    .etiquetaDos {
+        margin-top: 28.5%;
+
+        margin-left: 15%;
+    }
+
+    .etiquetaUno {
+        width: 26%;
+    }
+
+    .etiquetaDos {
+        width: 29%;
+    }
+
+    .etiquetaTres {
+        width: 31%;
+    }
+} 
+
+
+
+@media (min-width: 320px) and (max-width: 374px) {
 
     .etiquetaUno,
     .etiquetaTres,
     .etiquetaDos {
         margin-top: 18.5%;
-        margin-left: 19%;
+        margin-left: 18%;
     }
 
     .etiquetaUno {
@@ -57,23 +81,3 @@
 
 }
 
-/* @media screen and (max-width: 375px){
-    .etiquetaUno,
-    .etiquetaTres,
-    .etiquetaDos {
-        margin-top: 30%;
-        margin-left: 14%;
-    }
-
-    .etiquetaUno {
-        width: 23%;
-    }
-
-    .etiquetaDos {
-        width: 26%;
-    }
-
-    .etiquetaTres {
-        width: 29%;
-    }
-} */

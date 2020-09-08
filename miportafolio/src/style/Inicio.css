@@ -167,7 +167,9 @@
     padding-top: 1%;
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 374px)  {
+    .lineaRojaTres, .lineaRojaCuatro{
+        display:none;}
     .puntos {
         display: none;
     }
@@ -254,21 +256,11 @@
 
     .tePuedoAyudar {
         font-size: 1.5em;
-        margin-left: 21%;
+        margin-left: 10%;
+        width: 100%;
 
     }
 
-    .lineaRojaTres {
-        margin-left: -15%;
-        margin-top: 6%;
-        width: 12%;
-    }
-
-    .lineaRojaCuatro {
-        margin-top: -14.7%;
-        width: 12%;
-        margin-left: 83%;
-    }
 
     .tags {
         width: 85%;
@@ -278,7 +270,10 @@
 
 }
 
- /* @media screen and (max-width: 375px) {
+ @media (min-width: 375px) and (max-width: 767px){
+     .lineaRojaTres, .lineaRojaCuatro{
+         display:none;
+     }
     .puntos {
         display: none;
     }
@@ -286,7 +281,7 @@
     .puntosRes {
         display: block;
         margin-left: 5%;
-        width: 88%;
+        width: 92%;
         margin-top: 1%;
     }
 
@@ -300,19 +295,20 @@
     }
 
     .contenedorTextoInicio {
-        margin-top: -97%;
+        margin-top: -103%;
 
     }
 
     .contenedorTextoInicioDos {
         width: 94%;
         margin-left: 11%;
-        margin-top: 12%;
+        margin-top: 10%;
         line-height: 190%;
     }
 
     .contenedorTextoSoyUna {
-        width: 95%;
+        width: 92%;
+        margin-top: 7%;
 
     }
 
@@ -324,17 +320,18 @@
     }
 
     .soyUna {
-        width: 98%;
-        text-align: center;
-        line-height: 190%;
-        margin-left: -22%;
-        margin-top: 12%;
-    }
+        width: 99%;
+    text-align: center;
+    line-height: 190%;
+    margin-left: -22%;
+    margin-top: -3%;
+   }
+    
 
     .textoSubrayado {
-        margin-top: 36.4%;
-        width: 83%;
-        margin-left: -40%;
+        margin-top: 33.4%;
+    width: 85%;
+    margin-left: -40%;
     }
 
     .ctnPro {
@@ -366,25 +363,13 @@
 
     .tePuedoAyudar {
         font-size: 1.5em;
-        margin-left: 10%;
+        margin-left: 12%;
         width: 97%;
     }
 
-.lineaRojaTres {
-    margin-left: -6%;
-    margin-top: 5%;
-    width: 12%;
-}
-
-.lineaRojaCuatro {
-    margin-top: -3.8%;
-    width: 12%;
-    margin-left: 91%;
-}
-
 .tags {
     width: 85%;
-    margin-left: 15.7%;
+    margin-left: 17.7%;
     flex-flow: wrap;
 }
 
@@ -397,4 +382,4 @@
     padding-top: 3%;
 }
 
-}*/
+}

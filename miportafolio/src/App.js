@@ -23,7 +23,7 @@ function App() {
         <Route path="/" exact>
           <Navbar/>
           <Inicio/>
-         <Grids/>
+         {/*<Grids/>*/}
         </Route>
         {/*<Route path="/Proyectos" >
           </Route>*/}
@@ -31,7 +31,7 @@ function App() {
           
         <Navbar/>
         <SobreMi/>
-        <Grids/> 
+       {/*<Grids/> */}
         </Route>
         
       </Switch>

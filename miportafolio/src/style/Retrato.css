@@ -6,7 +6,7 @@
     width: 47.2%;
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 374px) {
     .retrato {
         width: 56vw;
         display: flex;
@@ -15,11 +15,11 @@
     }
 }
 
- /* @media screen and (max-width: 375px){
+@media (min-width: 375px) and (max-width: 767px){
     .retrato {
         width: 56vw;
         display: flex;
         justify-content: center;
-        margin-left: 24%;
+        margin-left: 25%;
     }
-}*/
+}

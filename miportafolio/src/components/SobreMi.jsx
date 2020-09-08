@@ -89,20 +89,20 @@ function SobreMi () {
             <div className="herramientas">
                 <p className="textoHerramientas">Herramientas</p>
                 <div className="contenedorHerramientas">
-                <div className="ph"><div className="herrP"><img className="photoshop" alt="photoshop" src={photoshop}/>
-                <p className="photo">Photoshop</p></div>
-                <div className="ill"><img className="illustrator" alt="illustrator" src={illustrator}/>
-                <p className="ilus">Illustrator</p></div></div>
+                <div className="ph"><div className="herrP">
+                <p className="photo"><img className="photoshop" alt="photoshop" src={photoshop}/> &nbsp; Photoshop</p></div>
+                <div className="ill">
+                <p className="ilus"><img className="illustrator" alt="illustrator" src={illustrator}/> &nbsp; Illustrator</p></div></div>
                 <div className="fi">
-                <div className="figm"><img className="figma" alt="figma" src={figma}/>
-                <p className="fig">Figma</p></div>
-                <div className="trap"><img className="boostrap" alt="boostrap" src={boostrap}/>
-                <p className="boos">Boostrap</p></div></div>
+                <div className="figm">
+                <p className="fig"><img className="figma" alt="figma" src={figma}/> &nbsp;Figma</p></div>
+                <div className="trap">
+                <p className="boos"><img className="boostrap" alt="boostrap" src={boostrap}/> &nbsp;Boostrap</p></div></div>
                 <div className="giHu">
-               <div className="gtd"><img className="githubdos" alt="githubdos" src={githubdos}/>
-                <p className="gitDos">GitHub</p></div>
-                <div className="invA"><img className="invision" alt="invision" src={invision}/>
-                <p className="inv">InVision</p></div>
+               <div className="gtd">
+                <p className="gitDos"><img className="githubdos" alt="githubdos" src={githubdos}/> &nbsp;GitHub</p></div>
+                <div className="invA">
+                <p className="inv"><img className="invision" alt="invision" src={invision}/> &nbsp;InVision</p></div>
                 </div>
 
                 </div>
@@ -110,5 +110,6 @@ function SobreMi () {
         </div>
     );
 }
+  
 
 export default SobreMi;

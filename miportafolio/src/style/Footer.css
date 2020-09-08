@@ -33,7 +33,7 @@
     margin-left: 79.6%;
 }
 
-@media screen and (max-width: 320px){
+@media (min-width: 320px)and (max-width: 374px){
     .contenedorFooter{
         width: 122%;
         height: 25vh;
@@ -50,21 +50,21 @@
     }
 
     .inconosFooter{
-        margin-left: 40.5%;
-    margin-top: -28%;
+        margin-left: 42.5%;
+        margin-top: -28%;
     }
 }
 
-/* @media screen and (max-width: 375px){
+@media (min-width: 375px) and (max-width: 767px){
     .contenedorFooter{
         width: 122%;
-        height: 27vh;
+        height: 29vh;
     }
 
     .textoFooter{
         text-align: center;
-        padding-top: 21%;
-        margin-left: 10%;
+        padding-top: 24%;
+        margin-left: 12%;
     }
 
     .carlaDiaz{
@@ -72,9 +72,9 @@
     }
 
     .inconosFooter{
-        margin-left: 25.5%;
-        margin-top: -26%;
+        margin-left: 26.5%;
+        margin-top: -28%;
         width: 46%;
     } 
-}*/
+}
 
