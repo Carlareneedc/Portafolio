@@ -31,7 +31,7 @@ function App() {
           
         <Navbar/>
         <SobreMi/>
-       {/*<Grids/> */}
+       {/*<Grids/>*/}
         </Route>
         
       </Switch>

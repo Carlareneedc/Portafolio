@@ -1,17 +1,17 @@
-.grids{
+/*.grids{
     width: 100%;
     margin-top: -51%;
   
-}
+}*/
 
-/*.grids{
-    width: 114.2%;
+.grids{
+    width: 110.2%;
     margin-top: -303%;
 }
 
 
 
-@media screen and (max-width: 320px){
+/*@media screen and (max-width: 320px){
     .gridsNoRes{
         display:none;
     }

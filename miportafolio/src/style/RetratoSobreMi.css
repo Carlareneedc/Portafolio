@@ -7,7 +7,16 @@
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
-    .retrato {
+    .retratoDos {
+        width: 56vw;
+        display: flex;
+        justify-content: center;
+        margin-left: 31%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .retratoDos {
         width: 56vw;
         display: flex;
         justify-content: center;
