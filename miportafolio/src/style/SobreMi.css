@@ -822,7 +822,7 @@
     .puntosResSobreMi{
        
         display: flex;
-        margin-left: 10%;
+        margin-left: 6%;
         width: 117%;
         margin-top: 3%;
        
@@ -846,8 +846,8 @@
     }
 
     .encabezadoTextoSobreMi{
-        margin-top: -119%;
-        margin-left: 26%;
+        margin-top: -141%;
+        margin-left: 6%;
         width: 77%;
   
 
@@ -887,7 +887,7 @@
 
     .verCurri{
         width: 77%;
-        margin-left: 27%;
+        margin-left: 30%;
     }
 
     .cardStyle{
