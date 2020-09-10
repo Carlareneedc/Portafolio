@@ -35,13 +35,14 @@
 
 @media (min-width: 320px)and (max-width: 374px){
     .contenedorFooter{
-        width: 122%;
+        width: 130%;
         height: 25vh;
     }
 
     .textoFooter{
         text-align: center;
         padding-top: 21%;
+        margin-left: 8%;
 
     }
 
@@ -57,14 +58,14 @@
 
 @media (min-width: 375px) and (max-width: 767px){
     .contenedorFooter{
-        width: 122%;
-        height: 29vh;
+        width: 130%;
+        height: 31vh;
     }
 
     .textoFooter{
         text-align: center;
         padding-top: 24%;
-        margin-left: 12%;
+        margin-left: 14%;
     }
 
     .carlaDiaz{
@@ -72,7 +73,7 @@
     }
 
     .inconosFooter{
-        margin-left: 26.5%;
+        margin-left: 28.5%;
         margin-top: -28%;
         width: 46%;
     } 

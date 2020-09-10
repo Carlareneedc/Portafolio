@@ -30,7 +30,7 @@
 @media (min-width: 320px) and (max-width: 374px) {
     .contenedorCards {
         width: 114%;
-        margin-left: 4%;
+        margin-left: 8%;
         margin-top: 5%;
     }
 }
@@ -38,7 +38,7 @@
 @media screen and (min-width: 375px) and (max-width: 767px){
     .contenedorCards {
         width: 109%;
-        margin-left: 6.1%;
+        margin-left: 10%;
         margin-top: 5%;
     }
 }
