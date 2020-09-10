@@ -56,6 +56,11 @@
     line-height: 30px;
 }
 
+.cardStyle{
+    width: 89.9vw;
+    height: 50vh;
+}
+
 .carlaDiazDos {
     font-family: Montserrat;
     font-weight: 600;
@@ -473,9 +478,9 @@
     .puntosResSobreMi{
        
         display: flex;
-        margin-left: 7%;
+        margin-left: 4%;
         width: 117%;
-    margin-top: 3%;
+        margin-top: 3%;
        
     }
 
@@ -484,32 +489,35 @@
     }
     
     .contenedorTextoSobreMi{
-        width: 148%;
-        margin-left: -14%;
-        margin-top: -3%;
-    }
+        width: 127%;
+        margin-top: 4%;
+   
+}
+    
 
     .miNombreEs{
         font-size: 0.9em;
+    width: 93%;
     }
 
     .encabezadoTextoSobreMi{
         margin-top: -141%;
-    margin-left: 28%;
+        margin-left: 25%;
     width: 77%;
 
     }
 
     .lineaRojaSobreMiDos {
         margin-top: 5.2%;
-        margin-left: 102%;
-        width: 19%;
+        margin-left: 101%;
+        width: 14%;
     }
+   
 
     .lineaRojaSobreMi {
         margin-top: 5.2%;
-        margin-left: -22%;
-    width: 19%;
+    margin-left: -19%;
+    width: 14%;
     }
 
     .unPoco{
@@ -518,8 +526,8 @@
 
     .contenedorDisfruto{
         width: 135%;
-    margin-left: -8%;
-    margin-top: 0%;
+        margin-left: -5%;
+    margin-top: 7%;
 
     }
 
@@ -528,16 +536,18 @@
     }
 
     .btnVerCurri {
-        margin-top: 6%;
+        margin-top: 15%;
     }
 
     .verCurri{
         width: 77%;
-    margin-left: 21%;
+        margin-left: 27%;
     }
 
     .cardStyle{
-        height: 196vh;
+        width: 110vw;
+        height: 136vh;
+        margin-top: -4%;
     }
 
     .contenedorCardText{
@@ -550,20 +560,32 @@
     }
 
     .cardText{
-
+        width: 100vw;
+    margin-left: -3%;
     }
 
 .contenedorMotivaciones{
     width: 110%;
+    margin-top: 19%;
+    margin-left: 10%;
 }
 
 .cardTitle{
     font-size:1.4em;
+    text-align: left;
+}
+
+.cardTextDos{
+    width: 99vw;
+    margin-left: -4%;
+    margin-top: -3%;
 }
 
 .educacionHabilidades{
     display: flex;
     flex-flow: row wrap;
+    margin-left: 1%;
+    margin-top: 10%;
 }
 
 .educacionTexto{
@@ -606,10 +628,7 @@
  .fechasDos {
     margin-top: -6%;
  }
- .marzoSeptiembre{
 
- }
- 
  .artesVisuales{
     margin-top: -6%;
  }
@@ -624,7 +643,8 @@
 
  .habilidades {
     margin-top: 8%;
-    margin-left: 19%;
+    margin-left: 34%;
+    width: 100%;
  }
 
  .habilidadesTexto{
@@ -632,23 +652,87 @@
  }
 
  .tagSobreMi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    width: 191%;
+    margin-left: -45%;
+ }
 
+ .tagWire{
+    width: 131%;
+    margin-left: -45%;
+    margin-top: -24%;
+ }
+
+ .user{
+    width: 40%;
+    margin-left: 56%;
+    font-size: 0.8em;
+    padding-top: 1.8%;
  }
 
  .design,
 .dcu,
-.wire,
-.css,
-.user,
-.bench,
-.html,
-.react,
+.wire
+{
+    font-size: 0.8em;
+    width: 36%;
+}
+
+.css{
+    margin-top: -18%;
+    margin-left: 78%;
+    padding-top: 2.5%;
+    font-size: 0.8em;
+}
+
+.bench{
+    margin-left: 99%;
+    margin-top: -18%;
+    font-size: 0.8em;
+    padding-top: 1.9%;
+}
+
+
+.react
+{
+    font-size: 0.8em;
+    padding-top: 2.5%;
+}
+
+.html{
+    font-size: 0.8em;
+    padding-top: 1.9%;
+    margin-left: 1%;
+}
 .js{
     font-size: 0.8em;
-    padding-top: 3%;
-    padding-left: 6%;
-    padding-right: 6%; 
+    padding-top: 2%;
 }
+.habilidadesBlandas{
+    font-size:1.4em;
+}
+
+.tagHabilidades{
+    display: flex;
+    justify-content: left;
+    flex-flow: wrap;
+    margin-left: -44%;
+
+}
+
+.empatica,
+.reflexiva,
+.analitica,
+.adaptable,
+.sociable,
+.creativa{
+    width: 31.1%;
+    font-size: 0.8em;
+    padding-top: 1.9%;
+}
+
 }
 
 

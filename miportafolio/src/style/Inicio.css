@@ -266,7 +266,17 @@
         width: 85%;
         margin-left: 18.7%;
         flex-flow: wrap;
+        font-size:1em;
     }
+
+    .tagUno,
+.tagDos,
+.tagTres,
+.tagCuatro,
+.tagCinco,
+.tagSeis{
+    padding-top: 3%;
+}
 
 }
 
@@ -371,6 +381,7 @@
     width: 85%;
     margin-left: 17.7%;
     flex-flow: wrap;
+    font-size:1em;
 }
 
 .tagUno,

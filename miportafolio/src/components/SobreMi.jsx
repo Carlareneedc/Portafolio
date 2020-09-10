@@ -56,14 +56,13 @@ function SobreMi() {
         <Card
           className="cardStyle"
           style={{
-            width: "89.4%",
             border: "none",
             borderRadius: "20px",
             boxShadow: "1px 4px 20px -1px rgba(43, 43, 43, 0.3)",
           }}
         >
           <Card.Body>
-            <Card.Title
+            <Card.Title className="cardTitle"
               style={{
                 fontFamily: "Merriweather",
                 fontWeight: "bold",
@@ -71,7 +70,7 @@ function SobreMi() {
                 marginTop: "1%",
               }}
             >
-              <p className="cardTitle">Motivaciones Profesionales</p>
+              <p >Motivaciones Profesionales</p>
             </Card.Title>
             <div className="contenedorCardText">
               <div>
@@ -98,7 +97,7 @@ function SobreMi() {
                 </Card.Text>
               </div>
               <div className="siBien">
-                <Card.Text
+                <Card.Text className="cardTextDos"
                   style={{
                     fontFamily: "Montserrat",
                     fontSize: "1em",
