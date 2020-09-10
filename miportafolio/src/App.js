@@ -11,6 +11,7 @@ import Grids from './components/Grids'
 import Navbar from './components/NavBar';
 
 import SobreMi from './components/SobreMi';
+import JapanQueen from './components/JapanQueen.jsx'
 
 
 
@@ -33,6 +34,12 @@ function App() {
         <SobreMi/>
        {/*<Grids/>*/}
         </Route>
+        <Route path="/JapanQueen" exact>
+        <Navbar/>
+         <JapanQueen/> 
+       {/*<Grids/>*/}
+        </Route>
+        
         
       </Switch>
     </div>

@@ -20,7 +20,7 @@ const Nav = styled.nav`
   }
   @media (min-width: 320px) and (max-width:374px){
      .logo {
-      width: 18.5vw;
+      width: 16.5vw;
       margin-left: -2.1%;
       margin-top: 5.1%;
   }

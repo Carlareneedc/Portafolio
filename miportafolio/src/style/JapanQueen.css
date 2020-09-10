@@ -1,0 +1,144 @@
+.contenedorJapanQueen{
+    display: flex;
+    justify-content: center;
+}
+
+.japanQueenimg{
+    margin-top: 6%;
+}
+
+.tituloJapan{
+    margin-top: 10%;
+}
+
+.jp, .expJa{
+    font-size:1.3em;
+    font-family: Merriweather;
+    color: #595959;
+}
+
+.lineaRojaJp{
+    position: absolute;
+    width: 14%;
+    background: #D50019;
+    margin-left: 11.3%;
+    margin-top: 5.5%;
+}
+
+
+.lineaRojaJpDos{
+    position: absolute;
+    width: 14%;
+    background: #D50019;
+    margin-left: 75.3%;
+    margin-top: -4.9%;
+
+
+}
+
+.jPes, .TextoInno, .desdeAqui{
+    font-family: Montserrat;
+    font-size: 0.8em;
+    line-height: 200%;
+    color: #000000;
+    text-align: left;
+    margin-left: 6%;
+    width: 89%;
+}
+
+.rol{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+}
+
+.rolTexto, .fechaDe, .actividades{
+    font-family: Montserrat;
+font-weight: bold;
+line-height: 30px;
+font-size:1em;
+text-align: left;
+color: #000000;
+}
+
+.fechaDe{
+    margin-top: -3%;
+}
+
+.ux, .julio, .uxR, .proto, .diseñoUi{
+    font-family: Montserrat;
+    font-size:0.8em;
+    text-align: left;
+    line-height: 30px;
+    margin-top: -6%;
+    color: #000000;
+}
+
+.actividades{
+    margin-top: -3%;
+}
+
+.tagActividades{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -5%;
+    margin-top: 2%;
+}
+
+
+.uxR{
+    background: #FF967E;
+    border-radius: 25px;
+    width: 31vw;
+    padding-left: 3%;
+}
+
+.proto{
+    background: rgba(254, 214, 123, 0.9);
+    border-radius: 25px;
+    width: 25vw;
+    padding-left: 3%;
+}
+
+.diseñoUi{
+    background: #EB8793;
+    border-radius: 25px;
+    width: 25vw;
+    padding-left: 3%;
+}
+
+.experiencia{
+    display: flex;
+    justify-content: center;
+}
+
+.expJa{
+    margin-left: -8%;
+    margin-top: 6%;
+}
+
+.lineaRojaJpTres{
+    position: absolute;
+    width: 88%;
+    background: #D50019;
+    margin-top: -1%;
+    margin-left: -4%;
+
+}
+
+.lineaRojaJpCuatro{
+    position: absolute;
+    width: 88%;
+    background: #D50019;
+    margin-top: 0.5%;
+    margin-left: -4%;
+  
+}
+
+.TextoInno{
+    margin-left: 0%;
+    width: 92%;
+}
+
+
+
