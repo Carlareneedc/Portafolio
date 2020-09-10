@@ -9,7 +9,7 @@ Route,
 import Inicio from './components/Inicio'
 import Grids from './components/Grids'
 import Navbar from './components/NavBar';
-import Footer from './components/Footer';
+
 import SobreMi from './components/SobreMi';
 
 
@@ -36,7 +36,7 @@ function App() {
         
       </Switch>
     </div>
-    <Footer/>
+   
     </Router>
   );
 }

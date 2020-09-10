@@ -20,7 +20,7 @@ const Ul = styled.ul`
     text-decoration: overline;
   }
   
-  @media (max-width: 320px) {
+  @media (min-width: 320px) and (max-width:374px){
     flex-flow: column nowrap;
     background-color: #FFFFFF;
     position: fixed;
@@ -39,7 +39,7 @@ const Ul = styled.ul`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (min-width: 375px) and (max-width:767px) {
     flex-flow: column nowrap;
     background-color: #FFFFFF;
     position: fixed;

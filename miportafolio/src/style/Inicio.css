@@ -176,7 +176,7 @@
 
     .puntosRes {
         display: block;
-        margin-left: 8%;
+        margin-left: 6%;
         width: 88%;
         margin-top: -1%;
     }
@@ -198,14 +198,14 @@
    
     .contenedorTextoInicioDos {
         width: 94%;
-        margin-left: 19%;
+        margin-left: 15%;
         margin-top: 12%;
         line-height: 190%;
     }
 
     .contenedorTextoSoyUna {
         width: 100%;
-        margin-left: 24%;
+        margin-left: 21%;
 
     }
 
@@ -227,12 +227,12 @@
     .textoSubrayado {
         margin-top: 37.4%;
         width: 94%;
-        margin-left: -37%;
+        margin-left: -41%;
 
     }
 
     .ctnPro {
-        margin-left: 27.9%;
+        margin-left: 21.9%;
     }
 
     .ctnProComp{
@@ -252,11 +252,12 @@
     .lineaRojaDos {
         margin-top: -5%;
         width: 17%;
-        margin-left: 59%;
+        margin-left: 61%;
     }
 
     .contTePuedo {
         width: 100%;
+        margin-left: -4%;
 
     }
 

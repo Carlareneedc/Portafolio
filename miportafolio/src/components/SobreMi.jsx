@@ -11,9 +11,11 @@ import boostrap from "../assets/img/boostrap.png";
 import githubdos from "../assets/img/github.png";
 import invision from "../assets/img/invission.png";
 import puntosResSo from "../assets/img/puntosresponsivesobremi.png";
+import FooterSobreMi from '../components/FooterSobreMi'
 
 function SobreMi() {
   return (
+    
     <div className="contenedorSobreMi">
       <RetratoSobreMi />
       <div className="puntosSobreMi">
@@ -149,7 +151,7 @@ function SobreMi() {
             </div>
           </div>
         </div>
-        <div className="habilidades">
+      <div className="habilidades">
           <h1 className="habilidadesTexto">Habilidades Técnicas</h1>
           <div className="tagSobreMi">
             <p className="design">Design Thinking</p>
@@ -228,7 +230,8 @@ function SobreMi() {
             </div>
           </div>
         </div>
-      </div>
+                </div>
+                <FooterSobreMi/>
     </div>
   );
 }

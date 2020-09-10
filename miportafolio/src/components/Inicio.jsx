@@ -5,6 +5,7 @@ import puntos from '../assets/img/puntos.png'
 import EtiquetasNombre from '../components/EtiquetasNombre'
 import ContenedorProyectos from '../components/proyecto/ContenedorProyectos'
 import puntosRes from '../assets/img/puntosresponsive.png'
+import Footer from '../components/Footer'
 
 
 
@@ -44,7 +45,7 @@ function Inicio() {
              
            </div>
        </div>
-      
+       <Footer/>
        </div>
       
     

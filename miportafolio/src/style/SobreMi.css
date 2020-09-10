@@ -478,20 +478,23 @@
 }
 
 
+
 @media (min-width: 320px)and (max-width: 374px){
     .puntosSobreMi{
         display: none;
     }
 
-    .puntosResSobreMi{
+     .puntosResSobreMi{
        
-        display: flex;
-        margin-left: 4%;
-        width: 117%;
-        margin-top: 3%;
+        display: block;
+        margin-left: 8%;
+
+       
        
     }
-
+    .herramientas{
+        margin-left: -1%;
+    }
     .puntosresSo{
         width: 125%;
     }
@@ -509,8 +512,8 @@
     }
 
     .encabezadoTextoSobreMi{
-        margin-top: -141%;
-        margin-left: 25%;
+        margin-top: -138%;
+        margin-left: 29%;
     width: 77%;
 
     }
@@ -549,7 +552,8 @@
 
     .verCurri{
         width: 77%;
-        margin-left: 27%;
+        margin-left: 35%;
+
     }
 
     .cardStyle{
@@ -573,7 +577,7 @@
     }
 
 .contenedorMotivaciones{
-    width: 110%;
+    width: 114%;
     margin-top: 19%;
     margin-left: 10%;
 }
@@ -592,7 +596,7 @@
 .educacionHabilidades{
     display: flex;
     flex-flow: row wrap;
-    margin-left: 1%;
+    margin-left: 3%;
     margin-top: 10%;
 }
 
@@ -651,7 +655,7 @@
 
  .textoHerramientas{
     font-size:1.4em;
-    margin-left: 7%;
+    margin-left: 14%;
 } 
  
 
@@ -750,7 +754,7 @@
 }
 
 .herrP {
-    margin-left: -60%;
+    margin-left: -66%;
     font-size: 1.1em;
 }
 .photo{
@@ -764,12 +768,13 @@
 
 .ill{
     margin-top: 58%;
-    margin-left: -19%;
+    margin-left: -23%;
 }
 
 .figm {
-    margin-left: -209%;
-    margin-top: -8%;
+    margin-left: -206%;
+    margin-top: -16%;
+
 }
 
 .fig{
@@ -785,7 +790,7 @@
 }
 
 .trap{
-    margin-top: -159%; 
+    margin-top: -146%;
 }
 
 
@@ -799,8 +804,8 @@
 }
 
 .giHu{
-    margin-top: -47%;
-    margin-left: 29%;
+    margin-top: -53%;
+    margin-left: 43%;
 }
 
 }
@@ -841,9 +846,10 @@
     }
 
     .encabezadoTextoSobreMi{
-        margin-top: -139%;
-        margin-left: 29%;
-    width: 77%;
+        margin-top: -119%;
+        margin-left: 26%;
+        width: 77%;
+  
 
     }
 
@@ -1157,4 +1163,3 @@
 
 }
 }
-

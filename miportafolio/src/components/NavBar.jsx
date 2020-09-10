@@ -18,9 +18,9 @@ const Nav = styled.nav`
     margin-left: 4.9%;
     margin-top: 1.2%;
   }
-  @media screen and (max-width: 320px){
+  @media (min-width: 320px) and (max-width:374px){
      .logo {
-      width: 16.5vw;
+      width: 18.5vw;
       margin-left: -2.1%;
       margin-top: 5.1%;
   }
@@ -28,7 +28,7 @@ const Nav = styled.nav`
   border-bottom: 0;
 }
 
-@media screen and (max-width: 375px){
+@media (min-width: 375px) and (max-width:767px){
   .logo {
     width: 16.5vw;
     margin-left: -2.1%;

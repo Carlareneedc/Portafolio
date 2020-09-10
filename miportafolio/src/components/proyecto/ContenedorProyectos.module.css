@@ -30,7 +30,7 @@
 @media (min-width: 320px) and (max-width: 374px) {
     .contenedorCards {
         width: 114%;
-        margin-left: 8%;
+        margin-left: 4%;
         margin-top: 5%;
     }
 }
