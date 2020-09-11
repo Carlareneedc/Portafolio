@@ -12,11 +12,6 @@ function ProyectosJapan() {
        <React.Fragment>
          <div className={style.contenedorCardsJapan}>
       <CardDeck style={{borderRadius:"20px"}}>
-  <Card className={style.cardJapan} style={{border:"none", borderRadius:"20px", boxShadow:"1px 4px 20px -1px rgba(43, 43, 43, 0.3)"}}>
-    
-    
-    
-  </Card>
   <Card style={{border:"none", borderRadius:"20px", boxShadow:"1px 4px 20px -1px rgba(43, 43, 43, 0.3)"}}>
     <Card.Img variant="top" src={proyectodos}/>
     <Card.Body>

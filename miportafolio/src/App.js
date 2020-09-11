@@ -37,7 +37,6 @@ function App() {
         <Route path="/JapanQueen" exact>
         <Navbar/>
          <JapanQueen/> 
-       {/*<Grids/>*/}
         </Route>
         
         

@@ -22,3 +22,39 @@
 .inconosFooterJapan{
     margin-top: -27%;
 }
+
+@media screen and (min-width: 375px){
+    .contenedorFooterJapan{
+        height: 23vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1440px){
+    .contenedorFooterJapan{
+        margin-left: -51%;
+    width: 99vw;
+    height: 13vh;
+    }
+
+    .textoFooterJapan{
+        font-size: 1em;
+        margin-top: 0.4%;
+        margin-left: 6.5%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2.2%;
+    }
+
+    .bolaCristalJapan{
+        font-size: 1.8em;
+        margin-top: -1%;
+    }
+
+    .inconosFooterJapan{
+        display: flex;
+        margin-top: -4.4%;
+        justify-content: space-evenly;
+        width: 15%;
+        margin-left: 79.6%;
+    }
+}
