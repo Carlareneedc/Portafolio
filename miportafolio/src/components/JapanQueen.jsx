@@ -6,6 +6,8 @@ import pantallainicio from "../assets/img/pantallainicio.png";
 import vistamesero from "../assets/img/vistamesero.png";
 import pedidos from "../assets/img/pedidos.png";
 import FooterJapan from "./FooterJapan";
+import proyectotresVer from '../assets/img/puntosabout.png'
+import ProyectosJapan from '../components/proyectoDos/ProyectosJapan'
 
 
 function JapanQueen() {
@@ -184,6 +186,8 @@ function JapanQueen() {
     </Card.Text>
   </Card.Body>
 </Card>
+<p className="puedesVer">Puedes ver otros Proyectos</p>
+<ProyectosJapan/>
 <FooterJapan/>
                   </div>
                 </div>

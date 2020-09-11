@@ -1,31 +1,35 @@
-.contenedorJapanQueen{
+.contenedorJapanQueen {
     display: flex;
     justify-content: center;
 }
 
-.japanQueenimg{
+.japanQueenimg {
     margin-top: 6%;
 }
 
-.tituloJapan{
+.tituloJapan {
     margin-top: 10%;
 }
 
-.jp, .expJa, .textoProcesos, .resultado {
-    font-size:1.3em;
+.jp,
+.expJa,
+.textoProcesos,
+.resultado,
+.puedesVer{
+    font-size: 1.3em;
     font-family: Merriweather;
     color: #595959;
 }
 
-.quete{
+.quete {
     font-size: 0.9em;
     color: #595959;
 
     font-family: Merriweather;
-    
+
 }
 
-.loquemas{
+.loquemas {
     font-size: 0.8em;
     color: #000000;
     font-family: Montserrat;
@@ -33,7 +37,7 @@
     width: 109%;
 }
 
-.lineaRojaJp{
+.lineaRojaJp {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -42,7 +46,7 @@
 }
 
 
-.lineaRojaJpDos{
+.lineaRojaJpDos {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -52,7 +56,17 @@
 
 }
 
-.jPes, .TextoInno, .desdeAqui, .algunos, .cambian, .textoQuien, .siEl, .pormedio, .usuariosVer, .mesero, .chef{
+.jPes,
+.TextoInno,
+.desdeAqui,
+.algunos,
+.cambian,
+.textoQuien,
+.siEl,
+.pormedio,
+.usuariosVer,
+.mesero,
+.chef {
     font-family: Montserrat;
     font-size: 0.8em;
     line-height: 200%;
@@ -62,53 +76,59 @@
     width: 89%;
 }
 
-.desdeAqui{
+.desdeAqui {
     margin-left: 0%;
 }
 
-.textoQuien{
+.textoQuien {
     width: 99%;
     margin-left: -2%;
 }
 
-.siEl{
+.siEl {
     width: 105%;
     margin-left: -2%;
 }
 
-.rol{
+.rol {
     display: flex;
     flex-direction: column;
     margin-left: 6%;
 }
 
-.rolTexto, .fechaDe, .actividades{
+.rolTexto,
+.fechaDe,
+.actividades {
     font-family: Montserrat;
-font-weight: bold;
-line-height: 30px;
-font-size:1em;
-text-align: left;
-color: #000000;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 1em;
+    text-align: left;
+    color: #000000;
 }
 
-.fechaDe{
+.fechaDe {
     margin-top: -3%;
 }
 
-.ux, .julio, .uxR, .proto, .diseñoUi{
+.ux,
+.julio,
+.uxR,
+.proto,
+.diseñoUi {
     font-family: Montserrat;
-    font-size:0.8em;
+    font-size: 0.8em;
     text-align: left;
     line-height: 30px;
     margin-top: -6%;
     color: #000000;
 }
 
-.actividades{
+.actividades {
     margin-top: -3%;
 }
 
-.tagActividades{
+.tagActividades {
     display: flex;
     justify-content: space-evenly;
     margin-left: -5%;
@@ -116,38 +136,38 @@ color: #000000;
 }
 
 
-.uxR{
+.uxR {
     background: #FF967E;
     border-radius: 25px;
     width: 31vw;
     padding-left: 3%;
 }
 
-.proto{
+.proto {
     background: rgba(254, 214, 123, 0.9);
     border-radius: 25px;
     width: 25vw;
     padding-left: 3%;
 }
 
-.diseñoUi{
+.diseñoUi {
     background: #EB8793;
     border-radius: 25px;
     width: 25vw;
     padding-left: 3%;
 }
 
-.experiencia{
+.experiencia {
     display: flex;
     justify-content: center;
 }
 
-.expJa{
+.expJa {
     margin-left: -8%;
     margin-top: 6%;
 }
 
-.lineaRojaJpTres{
+.lineaRojaJpTres {
     position: absolute;
     width: 88%;
     background: #D50019;
@@ -156,31 +176,31 @@ color: #000000;
 
 }
 
-.lineaRojaJpCuatro{
+.lineaRojaJpCuatro {
     position: absolute;
     width: 88%;
     background: #D50019;
     margin-top: 0.5%;
     margin-left: -4%;
-  
+
 }
 
-.TextoInno{
+.TextoInno {
     margin-left: 0%;
     width: 92%;
 }
 
-.textoExperiencia{
+.textoExperiencia {
     margin-top: 4%;
 }
 
-.cardContenedor{
+.cardContenedor {
     width: 89%;
     margin-left: 5.3%;
     height: 103vh;
 }
 
-.lineaRojaEl{
+.lineaRojaEl {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -188,14 +208,15 @@ color: #000000;
     margin-top: 5%;
 }
 
-.lineaRojaElDos{  position: absolute;
+.lineaRojaElDos {
+    position: absolute;
     width: 14%;
     background: #D50019;
     margin-left: 70.3%;
     margin-top: -3.9%;
 }
 
-.lineaRojaProcesos{
+.lineaRojaProcesos {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -203,7 +224,7 @@ color: #000000;
     margin-top: 5.1%;
 }
 
-.lineaRojaProcesosDos{
+.lineaRojaProcesosDos {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -211,37 +232,40 @@ color: #000000;
     margin-top: -5%;
 }
 
-.algunos, .cambian{
+.algunos,
+.cambian {
     width: 109%;
     margin-left: -2%;
 }
 
-.procesos{
+.procesos {
     margin-top: 22%;
 }
-.textoProcesos{
 
-}
-.pormedio{
+.textoProcesos {}
+
+.pormedio {
     margin-left: -8%;
     width: 113%;
 }
-.usuariosVer{
+
+.usuariosVer {
     width: 112%;
     margin-left: -8%;
 }
-.mesero{
+
+.mesero {
     width: 100%;
     margin-left: -8%;
 }
 
-.chef{
+.chef {
     margin-left: -8%;
 }
 
 
 
-.lineaRojaResultado{
+.lineaRojaResultado {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -249,7 +273,7 @@ color: #000000;
     margin-top: 5%;
 }
 
-.lineaRojaResultadoDos{
+.lineaRojaResultadoDos {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -257,28 +281,95 @@ color: #000000;
     margin-left: 7.3%;
 }
 
-.contenedorQue{
+.contenedorQue {
     width: 110%;
     margin-left: -5%;
     margin-top: 9%;
     background: #FFFFFF;
-box-shadow: 1px 4px 20px -1px rgba(43, 43, 43, 0.3);
-height: 44vh;
+    box-shadow: 1px 4px 20px -1px rgba(43, 43, 43, 0.3);
+    height: 44vh;
 
 }
 
-.Carrusel{
+.Carrusel {
     background: rgba(44, 148, 141, 0.6);
     width: 131%;
     margin-left: -15%;
 
 }
 
-.carruselespacio{
+.carruselespacio {
     margin-top: 5%;
     margin-left: 10%;
 }
 
-.imguno{
+.imguno {
     width: 86%;
+}
+
+
+.puedesVer{
+    width: 113%;
+    margin-left: -8%;
+    margin-top: 10%;
+}
+
+@media screen and (min-width: 375px){
+    .jPes, .TextoInno, .desdeAqui, .algunos, .cambian, .textoQuien, .siEl, .pormedio, .usuariosVer, .mesero, .chef{
+        font-size: 1em;
+        
+    }
+
+    .rolTexto, .fechaDe, .actividades{
+        font-size: 1.2em;
+    }
+
+    .ux, .julio, .uxR, .proto, .diseñoUi{
+        font-size: 0.9em;
+    }
+
+    .lineaRojaJpTres,  .lineaRojaJpCuatro{
+        margin-left: -9%;
+        margin-left: -9%;
+    }
+
+    .cardContenedor{
+        height: 137vh;
+        margin-left: 5.3%;
+    }
+
+    .pormedio, .usuariosVer, .mesero, .chef {
+        margin-left: -6%;
+    }
+
+    .usuariosVer{
+        width: 115%;
+    }
+
+    .lineaRojaResultado{
+        margin-left: 62.3%;
+    }
+
+    .lineaRojaResultadoDos{
+        margin-top: -4%;
+    margin-left: 11.3%;
+    }
+
+    .Carrusel{
+        width: 132%;
+    }
+
+    .quete{
+        font-size:1em;
+    }
+
+    .contenedorQue{
+    width: 115%;
+    margin-left: -7%;
+    }
+
+    .loquemas{
+        font-size: 0.9em;
+    width: 100%;
+    }
 }

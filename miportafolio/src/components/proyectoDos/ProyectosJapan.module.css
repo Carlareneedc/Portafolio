@@ -1,0 +1,42 @@
+
+.harryPotterJapan,
+.pincelBookJapan{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: initial;
+    font-size: 1em;
+}
+
+
+.appInformativaJapan,
+.redSocialJapan {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 0.9em;
+    line-height: 140%;
+    width: 110%;
+}
+
+.verProyectoJapanCont, .verProyectoJapan {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+}
+
+.contenedorCardsJapan {
+    width: 108.6%;
+    display: flex;
+    margin-left: -3.3%;
+    margin-top: -3%;
+}
+
+@media screen and (min-width: 375px){
+    .contenedorCardsJapan{
+        margin-left: -7.3%;
+        width: 114.6%;
+    } 
+
+    .redSocialJapan, .appInformativaJapan{
+        width: 100%;
+    }
+    
+}
