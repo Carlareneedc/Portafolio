@@ -1,0 +1,24 @@
+.contenedorFooterJapan{
+    background: #2C948D;
+    width: 132%;
+    margin-left: -15%;
+    height: 20vh;
+    margin-top: 14%;
+}
+
+.textoFooterJapan{
+    font-family: Merriweather;
+    font-weight: 300;
+    font-size: 1em;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    padding-top: 24%;
+}
+
+.carlaDiazJapan{
+    font-weight: bold;
+}
+
+.inconosFooterJapan{
+    margin-top: -27%;
+}

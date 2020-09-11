@@ -11,10 +11,26 @@
     margin-top: 10%;
 }
 
-.jp, .expJa{
+.jp, .expJa, .textoProcesos, .resultado {
     font-size:1.3em;
     font-family: Merriweather;
     color: #595959;
+}
+
+.quete{
+    font-size: 0.9em;
+    color: #595959;
+
+    font-family: Merriweather;
+    
+}
+
+.loquemas{
+    font-size: 0.8em;
+    color: #000000;
+    font-family: Montserrat;
+    text-align: left;
+    width: 109%;
 }
 
 .lineaRojaJp{
@@ -36,7 +52,7 @@
 
 }
 
-.jPes, .TextoInno, .desdeAqui{
+.jPes, .TextoInno, .desdeAqui, .algunos, .cambian, .textoQuien, .siEl, .pormedio, .usuariosVer, .mesero, .chef{
     font-family: Montserrat;
     font-size: 0.8em;
     line-height: 200%;
@@ -44,6 +60,20 @@
     text-align: left;
     margin-left: 6%;
     width: 89%;
+}
+
+.desdeAqui{
+    margin-left: 0%;
+}
+
+.textoQuien{
+    width: 99%;
+    margin-left: -2%;
+}
+
+.siEl{
+    width: 105%;
+    margin-left: -2%;
 }
 
 .rol{
@@ -140,5 +170,115 @@ color: #000000;
     width: 92%;
 }
 
+.textoExperiencia{
+    margin-top: 4%;
+}
+
+.cardContenedor{
+    width: 89%;
+    margin-left: 5.3%;
+    height: 103vh;
+}
+
+.lineaRojaEl{
+    position: absolute;
+    width: 14%;
+    background: #D50019;
+    margin-left: 2.3%;
+    margin-top: 5%;
+}
+
+.lineaRojaElDos{  position: absolute;
+    width: 14%;
+    background: #D50019;
+    margin-left: 70.3%;
+    margin-top: -3.9%;
+}
+
+.lineaRojaProcesos{
+    position: absolute;
+    width: 14%;
+    background: #D50019;
+    margin-left: 62.3%;
+    margin-top: 5.1%;
+}
+
+.lineaRojaProcesosDos{
+    position: absolute;
+    width: 14%;
+    background: #D50019;
+    margin-left: 10.3%;
+    margin-top: -5%;
+}
+
+.algunos, .cambian{
+    width: 109%;
+    margin-left: -2%;
+}
+
+.procesos{
+    margin-top: 22%;
+}
+.textoProcesos{
+
+}
+.pormedio{
+    margin-left: -8%;
+    width: 113%;
+}
+.usuariosVer{
+    width: 112%;
+    margin-left: -8%;
+}
+.mesero{
+    width: 100%;
+    margin-left: -8%;
+}
+
+.chef{
+    margin-left: -8%;
+}
 
 
+
+.lineaRojaResultado{
+    position: absolute;
+    width: 14%;
+    background: #D50019;
+    margin-left: 64.3%;
+    margin-top: 5%;
+}
+
+.lineaRojaResultadoDos{
+    position: absolute;
+    width: 14%;
+    background: #D50019;
+    margin-top: -6%;
+    margin-left: 7.3%;
+}
+
+.contenedorQue{
+    width: 110%;
+    margin-left: -5%;
+    margin-top: 9%;
+    background: #FFFFFF;
+box-shadow: 1px 4px 20px -1px rgba(43, 43, 43, 0.3);
+height: 44vh;
+
+}
+
+.Carrusel{
+    background: rgba(44, 148, 141, 0.6);
+    width: 131%;
+    margin-left: -15%;
+
+}
+
+.carruselespacio{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.imguno{
+    width: 86%;
+}

@@ -25,6 +25,7 @@
 
 }
 
+
 .lineaRojaSobreMi {
     position: absolute;
     width: 7%;
@@ -483,6 +484,7 @@
     .puntosSobreMi{
         display: none;
     }
+
 
      .puntosResSobreMi{
        
