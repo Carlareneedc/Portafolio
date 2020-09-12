@@ -463,25 +463,38 @@
 }
 
 @media screen and (min-width: 768px) and (max-width:1440px){
-    .japanQueenimgMov{
+    .harryPotterImg{
         display: flex;
         width: 32vw;
     margin-left: 7%;
     }
 
+    
+
+    .rolTextoHarry, .fechaDeHarry, .actividadesHarry{
+        font-size: 1.2em;
+    }
     .tituloJapan{
 
     }
 
-    .jp{
-        margin-top: -42%;
-        margin-left: 16.8%;
-        font-size: 2em;
+    .uxHarry, .mayo, .uxRHarry, .protoHarry, .diseñoUiHarry, .testeo{
+        font-size: 0.9em;
+    }
+    .hpes{
+        font-size: 1em;
+        width: 85%;
     }
 
-    .lineaRojaJp{
+    .hp{
+        margin-top: -42%;
+    margin-left: 30.8%;
+    font-size: 2em;
+    }
+
+    .lineaRojahp{
         margin-top: 2%;
-        margin-left: 27%;
+        margin-left: 13%;
         width: 7%;
 }
 
@@ -489,7 +502,7 @@
     margin-left: 40%;
 }
 
-.rol{
+.rolHarry {
     width: 24%;
     margin-left: 43.7%;
 }
@@ -498,7 +511,7 @@
     display:none;
 }
 
-.tagActividades{
+.tagActividadesHarry{
     margin-left: 0%;
     display: flex;
     flex-direction: column;
@@ -506,31 +519,39 @@
     margin-top: -1%;
 }
 
-.uxR{
+.uxRHarry{
     width: 9vw;
     padding-left: 33%;
 }
 
-.proto{
+.protoHarry{
     width: 7vw;
     padding-left: 33%;
     margin-top: -153%;
     margin-left: 410%;
 }
 
-.fechaDe{
+.fechaDeHarry{
     margin-left: 122%;
-    margin-top: -24%;
+    margin-top: -25%;
     margin-right: -95%;
 }
 
-.julio{
-    margin-left: 124%;
-    margin-top: -5%;
-    margin-right: -48%;
+.mayo{
+    margin-left: 123%;
+    margin-top: -6%;
+    margin-right: -50%;
 }
 
-.diseñoUi{
+.testeo{
+    width: 7vw;
+    /* padding-left: 33%; */
+    margin-left: 324%;
+    margin-top: -151%;
+    text-align: center;
+}
+
+.diseñoUiHarry{
     width: 7vw;
     padding-left: 33%;  
 }
