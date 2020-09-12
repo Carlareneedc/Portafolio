@@ -19,6 +19,7 @@ import wireframedos from "../assets/img/2.jpg";
 import hpuno from "../assets/img/hpresult.png";
 import hpdos from "../assets/img/hpresultdos.png";
 import hptres from "../assets/img/hpresulttres.png";
+import humansDos from '../assets/img/humaaansdos.png'
 
 function HarryPotter() {
   return (
@@ -250,6 +251,12 @@ function HarryPotter() {
                           className="flujogramaDig"
                           alt="flujogramadig"
                           src={flujoGramaDigi}
+                        />
+
+<img
+                          className="humansdos"
+                          alt="humansdos"
+                          src={humansDos}
                         />
                       </div>
                       <p className="sketch">

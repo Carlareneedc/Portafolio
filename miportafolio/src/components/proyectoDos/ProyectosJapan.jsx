@@ -29,7 +29,7 @@ function ProyectosJapan() {
       <Card.Title><h5 className={style.harryPotterJapan}>Harry Potter Beginners</h5></Card.Title>
       <Card.Text>
        <p className={style.appInformativaJapan}>App informativa, cuyo enfoque principal es mostrar datos claves para conocer a grandes rasgos, el universo de Harry Potter</p> 
-       <Link><Button className={style.verProyectoJapanCont} style ={{borderColor:"#FF3C38", backgroundColor:"#FF3C38", fontWeight:"bold", display:"flex", marginTop:"4%"}} >Ver Proyecto</Button></Link>
+       <Link to="/HarryPotter"><Button className={style.verProyectoJapanCont} style ={{borderColor:"#FF3C38", backgroundColor:"#FF3C38", fontWeight:"bold", display:"flex", marginTop:"4%"}} >Ver Proyecto</Button></Link>
       </Card.Text>
     </Card.Body>
   </Card>
