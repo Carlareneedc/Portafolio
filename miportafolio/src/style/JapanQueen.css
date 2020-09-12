@@ -82,9 +82,7 @@
 .usuariosVer,
 .mesero,
 .chef,
-.segun,
-.aquiPuedes 
-{
+.segun {
     font-family: Montserrat;
     font-size: 0.8em;
     line-height: 200%;
@@ -92,22 +90,6 @@
     text-align: left;
     margin-left: 6%;
     width: 89%;
-}
-
-.invgithub{
-    font-family: Montserrat;
-    font-size: 0.8em;
-    line-height: 200%;
-    color: #000000;
-    text-align: left;
-    margin-left: 6%;
-    width: 89%;
-}
-
-.aquiPuedes, .invgithub{
-    margin-left: -7%;
-    margin-top: -4%;
-    width: 108%;
 }
 
 .segun {
@@ -436,11 +418,6 @@
     width: 100%;
     }
 
-    .aquiPuedes{
-        font-size:1em;
-        width: 114%;
-    }
-
 }
 
 @media screen and (min-width: 768px) and (max-width:1440px){
@@ -661,8 +638,8 @@
 }
 
 .resultado{
-    margin-top: 24%;
-    margin-left: -93.1%;
+    margin-top: 21%;
+    margin-left: -57%;
 }
 
 .contenedorHumans{
@@ -738,11 +715,5 @@
 .linearojaPuedesDos{
     margin-left: 52.4%;
     margin-top: -1.4%;
-}
-
-.aquiPuedes{
-    margin-top: 50%;
-    margin-left: -162%;
-    font-size: 1em;
 }
     }

@@ -1,7 +1,7 @@
 .contenedorFooterJapan{
     background: #2C948D;
-    width: 132%;
-    margin-left: -15%;
+    width: 134%;
+    margin-left: -18%;
     height: 20vh;
     margin-top: 14%;
 }
@@ -26,6 +26,7 @@
 @media screen and (min-width: 375px){
     .contenedorFooterJapan{
         height: 23vh;
+        width: 135%;
     }
 }
 
