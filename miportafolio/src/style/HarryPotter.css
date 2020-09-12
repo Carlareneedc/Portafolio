@@ -3,28 +3,26 @@
     justify-content: center;
 }
 
-.harryPotter{
+.harryPotter {
     margin-top: 6%;
 }
 
 .tituloHarry {
     margin-top: 10%;
 }
-.solucion{
-    margin-top: 13%;
-}
+
 .hp,
-.expJa,
+.expHa,
 .textoProcesosHarry,
-.resultado,
-.puedesVer,
-.solucional{
+.resultadoHarry,
+.puedesVerHarry,
+.solucionalHarry {
     font-size: 1.3em;
     font-family: Merriweather;
     color: #595959;
 }
 
-.quete {
+.queteHarry {
     font-size: 0.9em;
     color: #595959;
 
@@ -32,14 +30,16 @@
 
 }
 
-.loquemas {
+
+.loquemasHarry {
     font-size: 0.8em;
     color: #000000;
     font-family: Montserrat;
     text-align: left;
     width: 109%;
 }
-.lineaRojaSolucion{
+
+.lineaRojaSolucionHarry {
     position: absolute;
     width: 11%;
     background: #D50019;
@@ -47,13 +47,14 @@
     margin-top: 5%;
 }
 
-.lineaRojaSolucionDos{
+.lineaRojaSolucionDosHarry {
     position: absolute;
     width: 11%;
     background: #D50019;
     margin-left: 82.3%;
     margin-top: -6%;
 }
+
 .lineaRojahp {
     position: absolute;
     width: 6%;
@@ -63,7 +64,7 @@
 }
 
 
-.lineaRojahpDos{
+.lineaRojahpDos {
     position: absolute;
     width: 6%;
     background: #D50019;
@@ -81,11 +82,26 @@
 .textoQuienHarry,
 .siElHarry,
 .pormedioHarry,
+.usuariosHarry,
 .usuariosVerHarry,
 .comoseHarry,
 .eseflujo,
-.segun,
-.aquiPuedes {
+.luegoDeInv,
+.aquiPuedesHarry,
+.usuariosque,
+.personasque,
+.yatienen,
+.datos,
+.infoyvisual,
+.personajes,
+.ocupaciones,
+.acceder,
+.sketch,
+.enbase,
+.prototipoTexto,
+.visualidad,
+.griff,
+.nuestro {
     font-family: Montserrat;
     font-size: 0.8em;
     line-height: 200%;
@@ -95,13 +111,94 @@
     width: 89%;
 }
 
-.aquiPuedes{
+.lamejor {
+    font-family: Montserrat;
+    font-size: 1em;
+    line-height: 200%;
+    color: #000000;
+    text-align: left;
+    margin-left: 0%;
+    width: 104%;
+    margin-top: -4%;
+}
+
+.usuariosLista,
+.datoslista {
+    margin-left: -9%;
+    width: 126%;
+}
+
+.datos {
+    width: 104%;
+}
+
+.usuariosHarry,
+.usuariosque,
+.personasque,
+.yatienen,
+.datos,
+.infoyvisual,
+.personajes,
+.ocupaciones,
+.acceder,
+.sketch,
+.enbase .visualidad,
+.griff,
+.nuestro {
+    margin-left: -7%;
+}
+
+.luegoDe {
+    margin-left: -8%;
+}
+
+.invgithubHarry {
+    font-family: Montserrat;
+    font-size: 0.8em;
+    line-height: 200%;
+    color: #000000;
+    text-align: left;
+    margin-left: -7%;
+    width: 114%;
+}
+
+.nuestro {
+    width: 114%;
+}
+
+.griff {
+    width: 116%;
+}
+
+.visualidad {
+    margin-left: -8%;
+    width: 123%;
+}
+
+/*.prototipoTexto {
+    margin-left: -8%;
+    width: 118%;
+}*/
+
+
+.sketchHarry {}
+
+.enbase {
+    width: 110%;
+    margin-left: -8%;
+}
+
+.sketch {
+    margin-top: 11%;
+}
+
+.aquiPuedesHarry {
     margin-left: -7%;
     margin-top: -4%;
     width: 106%;
 }
 
-.segun {
+.luegoDeInv {
     margin-left: -7%;
     width: 116%;
 }
@@ -120,7 +217,7 @@
     margin-left: -2%;
 }
 
-.rolHarry{
+.rolHarry {
     display: flex;
     flex-direction: column;
     margin-left: 6%;
@@ -136,7 +233,8 @@
     text-align: left;
     color: #000000;
 }
-.lineaRojaElHarry{
+
+.lineaRojaElHarry {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -144,7 +242,8 @@
     margin-top: 5.1%;
 
 }
-.fechaDe {
+
+.fechaDeHarry {
     margin-top: -3%;
 }
 
@@ -153,7 +252,7 @@
 .uxRHarry,
 .protoHarry,
 .diseñoUiHarry,
-.testeo{
+.testeo {
     font-family: Montserrat;
     font-size: 0.8em;
     text-align: left;
@@ -162,7 +261,7 @@
     color: #000000;
 }
 
-.actividades {
+.actividadesHarry {
     margin-top: -3%;
 }
 
@@ -189,14 +288,14 @@
     padding-left: 3%;
 }
 
-.diseñoUiHarry{
+.diseñoUiHarry {
     background: #EB8793;
     border-radius: 25px;
     width: 25vw;
     padding-left: 3%;
 }
 
-.testeo{
+.testeo {
     background: #FED474;
     border-radius: 25px;
     width: 19vw;
@@ -213,7 +312,7 @@
     justify-content: center;
 }
 
-.expJa {
+.expHa {
     margin-left: -8%;
     margin-top: 6%;
 }
@@ -245,15 +344,13 @@
     margin-top: 4%;
 }
 
-.cardContenedorHarry{
+.cardContenedorHarry {
     width: 89%;
     margin-left: 5.3%;
-    height: 135vh;
+    height: 136vh;
 }
 
-.elProblemaHarry {
-   
-}
+.elProblemaHarry {}
 
 .lineaRojaElDosHarry {
     position: absolute;
@@ -311,19 +408,37 @@
     width: 116%;
 }
 
-.flujo, .flujodigital{
+.flujo,
+.flujodigital,
+.wireframe {
     display: flex;
     justify-content: center;
 }
 
-.flujograma, .flujogramaDig{
+.flujograma,
+.flujogramaDig,
+.sketchHarry,
+.wireframe,
+.wireframeDos {
     width: 86vw;
+}
+
+.wireframeDos {
+    margin-left: -5%;
+}
+
+.wireframe {
+    margin-left: -5%;
+}
+
+.sketchHarry {
+    margin-left: -7%;
 }
 
 
 
 
-.lineaRojaResultado {
+.lineaRojaResultadoHarry {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -331,7 +446,7 @@
     margin-top: 5%;
 }
 
-.lineaRojaResultadoDos {
+.lineaRojaResultadoDosHarry {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -339,450 +454,461 @@
     margin-left: 7.3%;
 }
 
-.lineaRojaque{
-    display:none;
+.lineaRojaqueHarry {
+    display: none;
 }
 
-.lineaRojaqueDos, .linearojaPuedes, .linearojaPuedesDos{
-    display:none;
+.lineaRojaqueDosHarry,
+.linearojaPuedesHarry,
+.linearojaPuedesDosHarry {
+    display: none;
 }
 
-.contenedorQue {
+.contenedorQueHarry {
     width: 110%;
     margin-left: -5%;
     margin-top: 9%;
     background: #FFFFFF;
     box-shadow: 1px 4px 20px -1px rgba(43, 43, 43, 0.3);
-    height: 44vh;
+    height: 38vh;
+
 
 }
 
-.Carrusel {
+.CarruselHarry {
     background: rgba(44, 148, 141, 0.6);
     width: 131%;
     margin-left: -15%;
+    height: 35vh;
 
 }
 
-.carruselespacio {
+.carruselespacioHarry {
     margin-top: 5%;
     margin-left: 10%;
 }
 
-.imguno {
+.imgunoHarry {
     width: 86%;
+    margin-left: -4%;
 }
 
 
-.puedesVer{
+.puedesVerHarry {
     width: 113%;
     margin-left: -8%;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
-.harryPotterImg{
+.harryPotterImg {
     width: 60vw;
 }
 
-.experienciaPuntosHarry{
-    display:none;
-}
-
-.contenedorHumans{
+.experienciaPuntosHarry {
     display: none;
 }
 
-@media screen and (min-width: 375px){
-    .jPes, .TextoInno, .desdeAqui, .algunosHarry, .cambianHarry, .textoQuienHarry, .siEl, .pormedioHarry, .usuariosVerHarry, .comoseHarry, .eseflujo{
+.contenedorHumansHarry {
+    display: none;
+}
+
+@media screen and (min-width: 375px) {
+
+    .hpes,
+    .TextoInnoHarry,
+    .desdeAquiHarry,
+    .algunosHarry,
+    .cambianHarry,
+    .textoQuienHarry,
+    .siElHarry,
+    .pormedioHarry,
+    .usuariosVerHarry,
+    .comoseHarry,
+    .eseflujo {
         font-size: 1em;
-        
+
     }
-    .segun {
-      
+
+    .luegoDeInv {
+
         font-size: 1em;
     }
-    
-    .rolTexto, .fechaDe, .actividades{
+
+    .rolTextoHarry,
+    .fechaDeHarry,
+    .actividadesHarry {
         font-size: 1.2em;
     }
 
-    .ux, .julio, .uxR, .proto, .diseñoUi{
+    .uxHarry,
+    .mayo,
+    .uxRHarry,
+    .protoHarry,
+    .diseñoUiHarry {
         font-size: 0.9em;
     }
 
-    .lineaRojaJpTres,  .lineaRojaJpCuatro{
-        margin-left: -9%;
-        margin-left: -9%;
+    .lineaRojahp {
+        margin-top: 4.2%;
+        margin-left: 5%;
+        width: 11%;
     }
 
-    .cardContenedorHarry{
+    .lineaRojahpDos {
+        margin-top: -4%;
+        margin-left: 84%;
+        width: 11%;
+    }
+
+    .cardContenedorHarry {
         height: 137vh;
         margin-left: 6.3%;
     }
 
-    .pormedioHarry, .usuariosVerHarry, .comoseHarry, .eseflujo {
+    .pormedioHarry,
+    .usuariosVerHarry,
+    .comoseHarry,
+    .eseflujo {
         margin-left: -6%;
     }
 
-    .usuariosVerHarry{
+    .usuariosVerHarry {
         width: 115%;
     }
 
-    .lineaRojaResultado{
+    .lineaRojaResultadoHarry {
         margin-left: 62.3%;
     }
 
-    .lineaRojaResultadoDos{
+    .lineaRojaResultadoDosHarry {
         margin-top: -4%;
-    margin-left: 11.3%;
+        margin-left: 11.3%;
     }
 
-    .Carrusel{
+    .CarruselHarry {
         width: 132%;
+        height: 42vh;
     }
 
-    .quete{
-        font-size:1em;
+    .queteHarry {
+        font-size: 1em;
     }
 
-    .contenedorQue{
-    width: 115%;
-    margin-left: -7%;
+    .contenedorQueHarry {
+        width: 115%;
+        margin-left: -7%;
     }
 
-    .loquemas{
+    .loquemasHarry {
         font-size: 0.9em;
-    width: 100%;
+        width: 100%;
     }
 
-    .aquiPuedes{
-        font-size:1em;
+    .aquiPuedesHarry {
+        font-size: 1em;
         width: 114%;
     }
 
 }
 
-@media screen and (min-width: 768px) and (max-width:1440px){
+@media screen and (min-width: 768px) and (max-width:1440px) {
     .harryPotterImg{
         display: flex;
         width: 32vw;
-    margin-left: 7%;
+        margin-left: 7%;
     }
 
-    
+    .tituloJapan {}
 
-    .rolTextoHarry, .fechaDeHarry, .actividadesHarry{
-        font-size: 1.2em;
-    }
-    .tituloJapan{
-
-    }
-
-    .uxHarry, .mayo, .uxRHarry, .protoHarry, .diseñoUiHarry, .testeo{
-        font-size: 0.9em;
-    }
-    .hpes{
-        font-size: 1em;
-        width: 85%;
-    }
-
-    .hp{
+    .hp {
         margin-top: -42%;
-    margin-left: 30.8%;
-    font-size: 2em;
+        margin-left: 16.8%;
+        font-size: 2em;
     }
 
-    .lineaRojahp{
+    .lineaRojahp {
         margin-top: 2%;
-        margin-left: 13%;
+        margin-left: 27%;
         width: 7%;
-}
-
-.contenedortextoHarry{
-    margin-left: 40%;
-}
-
-.rolHarry {
-    width: 24%;
-    margin-left: 43.7%;
-}
-
-.lineaRojaJpDos{
-    display:none;
-}
-
-.tagActividadesHarry{
-    margin-left: 0%;
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-    margin-top: -1%;
-}
-
-.uxRHarry{
-    width: 9vw;
-    padding-left: 33%;
-}
-
-.protoHarry{
-    width: 7vw;
-    padding-left: 33%;
-    margin-top: -153%;
-    margin-left: 410%;
-}
-
-.fechaDeHarry{
-    margin-left: 122%;
-    margin-top: -25%;
-    margin-right: -95%;
-}
-
-.mayo{
-    margin-left: 123%;
-    margin-top: -6%;
-    margin-right: -50%;
-}
-
-.testeo{
-    width: 7vw;
-    /* padding-left: 33%; */
-    margin-left: 324%;
-    margin-top: -151%;
-    text-align: center;
-}
-
-.diseñoUiHarry{
-    width: 7vw;
-    padding-left: 33%;  
-}
-
-.experienciaPuntos{
-    display: block;
-    margin-left: -59%;
-    margin-top: 4%;
-}
-
-.experiencia{
-    margin-top: -289%;
-    display: flex;
-    justify-content: left;
-    margin-left: -135%;
-    
-
-}
-.textoExperiencia {
-    margin-left: -154%;
-    width: 342%;
-    display: flex;
-    margin-top: -2%;
-}
-
-.desdeAqui{
-    margin-left: 7%;
-    /* width: 107%; */
-    margin-right: -7%;
-    
-}
-
-.TextoInno{
-
-}
-
-.lineaRojaJpTres{
-    width: 6vw;
-    margin-left: 21%;
-    margin-top: 1.2%;
-}
-
-.expJa{
-    margin-top: -7%;
-}
-
-.lineaRojaJpCuatro{
-    display:none;
-}
-
-.cardContenedorHarry {
-    width: 85.4vw;
-    margin-left: 6.9%;
-    margin-top: 3%;
-    height: 53vh;
-}
-
-.elProblemaHarry{
-    font-size: 1.3em;
-    text-align: left;
-}
-
-.lineaRojaElHarry{
-    width: 6vw;
-    margin-left: 17%;
-    margin-top: 1.7%;
-}
-
-.lineaRojaElDosHarry{
-    display:none;
-}
-
-.contenedorAlgunosCambianHarry{
-    display: flex;
-    flex-direction: column;
-    width: 22%;
-}
-
-.quienSeHarry{
-    display: flex;
-    flex-direction: column;
-    margin-top: -18%;
-    margin-left: 27%;
-    width: 72%;
-}
-
-.siEl{
-    width: 101%;
-}
-
-.procesosHarry{
-    margin-top: 10%;
-    margin-left: -36.1%;
-    width: 73%;
-}
-
-.textoProcesosHarry{
-    text-align: left;
-    margin-left: -6.3%;
-}
-
-.lineaRojaProcesosHarry{
-    display:none;
-}
-
-.lineaRojaProcesosDosHarry{
-    width: 6vw;
-    margin-top: -1.5%;
-    margin-left: 9%;
-}
-
-.solucion{
-    display: flex;
-    justify-content: left;
-    margin-left: -42.4%;
-    margin-top: 2%;
-}
-
-.lineaRojaResultado{
-    display:none;
-}
-
-.lineaRojaResultadoDos{
-    width: 6vw;
-    margin-top: -1.5%;
-    margin-left: 10%;
-}
-
-.segun{
-    margin-left: -19.7%;
-    margin-top: 5%;
-    width: 57%;
-}
-
-.solucional{
-    margin-left: 1.4%;
-}
-
-.lineaRojaSolucion{
-    display:none;
-}
-
-.lineaRojaSolucionDos{
-    width: 6vw;
-    margin-left: 20%;
-    margin-top: -1.3%;
-}
-
-.resultado{
-    margin-top: 24%;
-    margin-left: -93.1%;
-}
-
-.contenedorHumans{
-    display: flex;
-    position: absolute;
-    margin-left: 32%;
-    margin-top: 29%;
-}
-
-.Carrusel{
-    margin-left: -51%;
-    width: 167%;
-    height: 55vh;
-    margin-top: 4%;
-}
-
-.contenedorQue{
-    margin-left: -40.4%;
-    width: 144%;
-    height: 22vh;
-}
-
-.imguno{
-    width: 31%;
-    margin-top: -1%;
-    margin-left: 26%;
-}
-
-.lineaRojaque, .lineaRojaqueDos{
-    display: flex;
-    position: absolute;
-    width: 8%;
-    background: #D50019;
-}
-
-.lineaRojaque{
-    margin-left: 26%;
-    margin-top: 1.3%;
-
-}
-
-.lineaRojaqueDos{
-    margin-left: 62.5%;
-    margin-top: -0.8%;
-}
-
-.loquemas{
-    text-align: center;
-}
-
-.puedesVer{
-    margin-top: 8%;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    margin-left: -25%;
-}
-
-.linearojaPuedes, .linearojaPuedesDos{
-    display:flex;
-    display: flex;
-    position: absolute;
-    width: 8%;
-    background: #D50019;
-}
-
-.linearojaPuedes{
-    margin-left: 18%;
-    margin-top: 1.4%;
-
-}
-
-.linearojaPuedesDos{
-    margin-left: 52.4%;
-    margin-top: -1.4%;
-}
-
-.aquiPuedes{
-    margin-top: 50%;
-    margin-left: -162%;
-    font-size: 1em;
-}
     }
+
+    .contenedortextoHarry {
+        margin-left: 40%;
+    }
+
+    .rolHarry {
+        width: 24%;
+        margin-left: 43.7%;
+    }
+
+    .lineaRojahpDos{
+        display: none;
+    }
+
+    .tagActividadesHarry {
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        margin-top: -1%;
+    }
+
+    .uxRHarry {
+        width: 9vw;
+        padding-left: 33%;
+    }
+
+    .protoHarry {
+        width: 7vw;
+        padding-left: 33%;
+        margin-top: -153%;
+        margin-left: 410%;
+    }
+
+    .fechaDeHarry {
+        margin-left: 122%;
+        margin-top: -24%;
+        margin-right: -95%;
+    }
+
+    .mayo {
+        margin-left: 124%;
+        margin-top: -5%;
+        margin-right: -48%;
+    }
+
+    .diseñoUiHarry {
+        width: 7vw;
+        padding-left: 33%;
+    }
+
+    .experienciaPuntosHarry {
+        display: block;
+        margin-left: -59%;
+        margin-top: 4%;
+    }
+
+    .experienciaHarry {
+        margin-top: -289%;
+        display: flex;
+        justify-content: left;
+        margin-left: -135%;
+
+
+    }
+
+    .textoExperienciaHarry {
+        margin-left: -154%;
+        width: 342%;
+        display: flex;
+        margin-top: -2%;
+    }
+
+    .desdeAquiHarry {
+        margin-left: 7%;
+        /* width: 107%; */
+        margin-right: -7%;
+
+    }
+
+
+    .lineaRojaJpTresHarry {
+        width: 6vw;
+        margin-left: 21%;
+        margin-top: 1.2%;
+    }
+
+    .expHa {
+        margin-top: -7%;
+    }
+
+    .lineaRojaJpCuatroHarry {
+        display: none;
+    }
+
+    .cardContenedorHarry {
+        width: 85.4vw;
+        margin-left: 6.9%;
+        margin-top: 3%;
+        height: 53vh;
+    }
+
+    .elProblemaHarry {
+        font-size: 1.3em;
+        text-align: left;
+    }
+
+    .lineaRojaElHarry {
+        width: 6vw;
+        margin-left: 17%;
+        margin-top: 1.7%;
+    }
+
+    .lineaRojaElDosHarry {
+        display: none;
+    }
+
+    .contenedorAlgunosCambianHarry {
+        display: flex;
+        flex-direction: column;
+        width: 22%;
+    }
+
+    .quienSeHarry {
+        display: flex;
+        flex-direction: column;
+        margin-top: -18%;
+        margin-left: 27%;
+        width: 72%;
+    }
+
+    .siElHarry {
+        width: 101%;
+    }
+
+    .procesosHarry {
+        margin-top: 10%;
+        margin-left: -36.1%;
+        width: 73%;
+    }
+
+    .textoProcesosHarry {
+        text-align: left;
+        margin-left: -6.3%;
+    }
+
+    .lineaRojaProcesosHarry {
+        display: none;
+    }
+
+    .lineaRojaProcesosDosHarry {
+        width: 6vw;
+        margin-top: -1.5%;
+        margin-left: 9%;
+    }
+
+    .solucionHarry {
+        display: flex;
+        justify-content: left;
+        margin-left: -42.4%;
+        margin-top: 2%;
+    }
+
+    .lineaRojaResultadoHarry {
+        display: none;
+    }
+
+    .lineaRojaResultadoDosHarry {
+        width: 6vw;
+        margin-top: -1.5%;
+        margin-left: 10%;
+    }
+
+    .luegoDeInv {
+        margin-left: -19.7%;
+        margin-top: 5%;
+        width: 57%;
+    }
+
+    .solucionalHarry {
+        margin-left: 1.4%;
+    }
+
+    .lineaRojaSolucionHarry {
+        display: none;
+    }
+
+    .lineaRojaSolucionDosHarry {
+        width: 6vw;
+        margin-left: 20%;
+        margin-top: -1.3%;
+    }
+
+    .resultadoHarry {
+        margin-top: 24%;
+        margin-left: -93.1%;
+    }
+
+    .contenedorHumansHarry {
+        display: flex;
+        position: absolute;
+        margin-left: 32%;
+        margin-top: 29%;
+    }
+
+    .CarruselHarry {
+        margin-left: -51%;
+        width: 167%;
+        height: 55vh;
+        margin-top: 4%;
+    }
+
+    .contenedorQueHarry {
+        margin-left: -40.4%;
+        width: 144%;
+        height: 22vh;
+    }
+
+    .imgunoHarry {
+        width: 31%;
+        margin-top: -1%;
+        margin-left: 26%;
+    }
+
+    .lineaRojaqueHarry,
+    .lineaRojaqueDosHarry {
+        display: flex;
+        position: absolute;
+        width: 8%;
+        background: #D50019;
+    }
+
+    .lineaRojaqueHarry {
+        margin-left: 26%;
+        margin-top: 1.3%;
+
+    }
+
+    .lineaRojaqueDosHarry {
+        margin-left: 62.5%;
+        margin-top: -0.8%;
+    }
+
+    .loquemasHarry {
+        text-align: center;
+    }
+
+    .puedesVerHarry {
+        margin-top: 8%;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* text-align: center; */
+        margin-left: -25%;
+    }
+
+    .linearojaPuedesHarry,
+    .linearojaPuedesDosHarry {
+        display: flex;
+        display: flex;
+        position: absolute;
+        width: 8%;
+        background: #D50019;
+    }
+
+    .linearojaPuedesHarry {
+        margin-left: 18%;
+        margin-top: 1.4%;
+
+    }
+
+    .linearojaPuedesDosHarry {
+        margin-left: 52.4%;
+        margin-top: -1.4%;
+    }
+
+    .aquiPuedesHarry {
+        margin-top: 50%;
+        margin-left: -162%;
+        font-size: 1em;
+    }
+}

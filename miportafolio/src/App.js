@@ -9,7 +9,7 @@ Route,
 import Inicio from './components/Inicio'
 import Grids from './components/Grids'
 import Navbar from './components/NavBar';
-import HarryPotter from './components/HarryPotter.jsx'
+import HarryPotter from './components/HarryPotter'
 import SobreMi from './components/SobreMi';
 import JapanQueen from './components/JapanQueen.jsx'
 
@@ -32,7 +32,7 @@ function App() {
           
         <Navbar/>
         <SobreMi/>
-       {/*<Grids/>*/}
+       
         </Route>
         <Route path="/JapanQueen" exact>
         <Navbar/>
@@ -41,6 +41,7 @@ function App() {
         <Route path="/HarryPotter" exact>
         <Navbar/>
         <HarryPotter/>
+       <Grids/>
         </Route>
         
         
