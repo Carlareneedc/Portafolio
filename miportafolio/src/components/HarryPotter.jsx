@@ -11,8 +11,9 @@ import ProyectosJapan from "../components/proyectoDos/ProyectosJapan";
 import JapanQueenProyectoVer from "../assets/img/japanqueennores.png";
 import experienciaPuntosHarry from "../assets/img/puntosjapanQueen.png";
 import humans from "../assets/img/humans.png";
-import flujoGrama from '../assets/img/flujopapel.png'
-import flujoGramaDigi from '../assets/img/flujodig.png'
+import flujoGrama from "../assets/img/flujopapel.png";
+import flujoGramaDigi from "../assets/img/flujodig.png";
+import sketch from '../assets/img/prototipobaja.jpg'
 
 function JapanQueen() {
   return (
@@ -144,6 +145,56 @@ function JapanQueen() {
                         <hr className="lineaRojaProcesosHarry"></hr>Procesos
                         <hr className="lineaRojaProcesosDosHarry"></hr>
                       </p>
+                      <p className="usuariosHarry">
+                        <strong>Usuarios</strong>
+                      </p>
+                      <ul className="usuariosLista">
+                        <li className="usuariosque">
+                          Usuarios que quieran ver o hayan visto películas de
+                          HP. Buscan entender mejor la historia sin tener que
+                          leer el libro.
+                        </li>
+                        <li className="personasque">
+                          Personas que comienzan a leer o están leyendo los
+                          libros. Buscan complementar conocimientos.
+                        </li>
+                        <li className="yatienen">
+                          Usuarios que ya tengan conocimientos de HP.
+                        </li>
+                      </ul>
+                      <p className="datos">
+                        <strong>
+                          Datos relevantes que los usuarios han declarado que
+                          buscan ver en la interfaz:{" "}
+                        </strong>
+                      </p>
+                      <ul className="datoslista">
+                        <li className="infoyvisual">
+                          Información y visualidad de las casas a las que
+                          pertenecen los personajes. <strong><i>(El usuario busca por
+                          ejemplo poder elegir una casa a la cual pertenecer
+                          según las particularidades de cada una)</i></strong>
+                        </li>
+                        <li className="personajes">
+                          Personajes principales y características. Cuales son
+                          los más relevantes: Protagonistas/Antagonistas. <strong><i>(El
+                          usuario busca encontrar una afinidad con los
+                          personajes de acuerdo a sus personalidades e
+                          identidades)</i></strong>
+                        </li>
+                        <li className="ocupaciones">
+                          Ocupaciones o profesiones en Hogwarts. (El usuario
+                          busca diferenciar entre estudiantes o staff)
+                        </li>
+                        <li className="acceder">
+                          Acceder a un glosario de palabras/hechizos/criaturas
+                          entre otros. <strong><i>(El usuario busca entender palabras que
+                          aparecen en los libros y películas)</i></strong>Es importante
+                          aclarar que este punto, está pensado como una mejora
+                          de la plataforma, ya que no necesariamente será
+                          implementada ahora.
+                        </li>
+                      </ul>
                       <p className="pormedioHarry">
                         Para el desarrollo de esta plataforma, realicé una
                         investigación previa para entender las necesidades de
@@ -156,20 +207,20 @@ function JapanQueen() {
                         esto definí una planificación.
                       </p>
                       <div className="flujo">
-                      <img
-                className="flujograma"
-                alt="flujograma"
-                src={flujoGrama}
-              />
+                        <img
+                          className="flujograma"
+                          alt="flujograma"
+                          src={flujoGrama}
+                        />
                       </div>
                       <p className="comoseHarry">
                         Como se puede apreciar, el primer flujograma contiene
                         indicaciones y características que luego acotamos y
                         mejoramos de acuerdo a la investigación antes
-                        mencionada. Así mismo, definimos dos nuevos diagramas de
-                        flujo.
+                        mencionada. Así mismo, definimos un diagrama de flujo
+                        final.
                       </p>
-                     
+
                       <p className="eseflujo">
                         Este flujo corresponde a la iteración del segundo
                         diagrama, el que corregimos según el feedback de nuestro
@@ -177,12 +228,20 @@ function JapanQueen() {
                         plataforma.
                       </p>
                       <div className="flujodigital">
-                      <img
-                className="flujogramaDig"
-                alt="flujogramadig"
-                src={flujoGramaDigi}
-              />
+                        <img
+                          className="flujogramaDig"
+                          alt="flujogramadig"
+                          src={flujoGramaDigi}
+                        />
+                        
                       </div>
+                      <p className="sketch"><strong>Sketch, wireframe y prototipado</strong></p>
+                      <p className="enbase">En base a los datos recopilados definí los siguientes diseños:</p>
+                      <img
+                          className="sketchHarry"
+                          alt="sketch"
+                          src={sketch}
+                        />
                     </div>
                     <div className="contenedorHumans">
                       <img className="humans" alt="humans" src={humans} />
@@ -200,6 +259,7 @@ function JapanQueen() {
                         se podrá tomar pedidos, eliminar y cambiar según la
                         decisión del cliente.
                       </p>
+                     
                       <a
                         target="_blank"
                         href="https://burger-queen2020.web.app/"

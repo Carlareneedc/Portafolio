@@ -79,11 +79,23 @@
 .textoQuienHarry,
 .siElHarry,
 .pormedioHarry,
+.usuariosHarry,
 .usuariosVerHarry,
 .comoseHarry,
 .eseflujo,
 .segun,
-.aquiPuedes {
+.aquiPuedes,
+.usuariosque,
+.personasque,
+.yatienen,
+.datos,
+.infoyvisual,
+.personajes,
+.ocupaciones,
+.acceder,
+.sketch,
+.enbase
+ {
     font-family: Montserrat;
     font-size: 0.8em;
     line-height: 200%;
@@ -91,6 +103,39 @@
     text-align: left;
     margin-left: 6%;
     width: 89%;
+}
+
+.usuariosLista, .datoslista{
+    margin-left: -9%;
+    width: 126%;
+}
+.datos{
+    width: 104%;
+}
+.usuariosHarry, .usuariosque,
+.personasque,
+.yatienen,
+.datos,
+.infoyvisual,
+.personajes,
+.ocupaciones,
+.acceder,
+.sketch,
+.enbase
+{
+    margin-left: -7%;
+}
+
+.sketchHarry{
+
+}
+
+.enbase{
+    width: 100%;
+}
+
+.sketch{
+    margin-top: 11%;
 }
 
 .aquiPuedes{
@@ -246,7 +291,7 @@
 .cardContenedorHarry{
     width: 89%;
     margin-left: 5.3%;
-    height: 135vh;
+    height: 149vh;
 }
 
 .elProblemaHarry {
@@ -314,8 +359,12 @@
     justify-content: center;
 }
 
-.flujograma, .flujogramaDig{
+.flujograma, .flujogramaDig, .sketchHarry{
     width: 86vw;
+}
+
+.sketchHarry{
+    margin-left: -7%;
 }
 
 
