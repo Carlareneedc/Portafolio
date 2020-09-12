@@ -15,14 +15,14 @@
 .expJa,
 .textoProcesosHarry,
 .resultado,
-.puedesVer,
+.puedesVerHarry,
 .solucional{
     font-size: 1.3em;
     font-family: Merriweather;
     color: #595959;
 }
 
-.quete {
+.queteHarry{
     font-size: 0.9em;
     color: #595959;
 
@@ -30,7 +30,7 @@
 
 }
 
-.loquemas {
+.loquemasHarry {
     font-size: 0.8em;
     color: #000000;
     font-family: Montserrat;
@@ -84,7 +84,7 @@
 .comoseHarry,
 .eseflujo,
 .segun,
-.aquiPuedes,
+.aquiPuedesHarry,
 .usuariosque,
 .personasque,
 .yatienen,
@@ -94,7 +94,12 @@
 .ocupaciones,
 .acceder,
 .sketch,
-.enbase
+.enbase,
+.prototipoTexto,
+.visualidad,
+.griff,
+.nuestro
+
  {
     font-family: Montserrat;
     font-size: 0.8em;
@@ -103,6 +108,17 @@
     text-align: left;
     margin-left: 6%;
     width: 89%;
+}
+
+.lamejor{
+    font-family: Montserrat;
+    font-size: 1em;
+    line-height: 200%;
+    color: #000000;
+    text-align: left;
+    margin-left: 0%;
+    width: 104%;
+    margin-top: -4%;
 }
 
 .usuariosLista, .datoslista{
@@ -122,9 +138,41 @@
 .acceder,
 .sketch,
 .enbase
+.visualidad,
+.griff,
+.nuestro
 {
     margin-left: -7%;
 }
+
+.luegoDe{
+    margin-left: -8%;
+}
+.invgithubHarry{
+    font-family: Montserrat;
+    font-size: 0.8em;
+    line-height: 200%;
+    color: #000000;
+    text-align: left;
+    margin-left: -7%;
+    width: 114%;
+}
+.nuestro{
+    width: 114%; 
+}
+.griff{
+    width: 116%;
+}
+.visualidad{
+    margin-left: -8%;
+    width: 123%; 
+}
+
+.prototipoTexto{
+    margin-left: -8%;
+    width: 118%;
+}
+
 
 .sketchHarry{
 
@@ -132,13 +180,14 @@
 
 .enbase{
     width: 100%;
+    margin-left: -8%;
 }
 
 .sketch{
     margin-top: 11%;
 }
 
-.aquiPuedes{
+.aquiPuedesHarry{
     margin-left: -7%;
     margin-top: -4%;
     width: 106%;
@@ -291,7 +340,7 @@
 .cardContenedorHarry{
     width: 89%;
     margin-left: 5.3%;
-    height: 149vh;
+    height: 136vh;
 }
 
 .elProblemaHarry {
@@ -354,13 +403,21 @@
     width: 116%;
 }
 
-.flujo, .flujodigital{
+.flujo, .flujodigital, .wireframe{
     display: flex;
     justify-content: center;
 }
 
-.flujograma, .flujogramaDig, .sketchHarry{
+.flujograma, .flujogramaDig, .sketchHarry, .wireframe, .wireframeDos{
     width: 86vw;
+}
+
+.wireframeDos{
+    margin-left: -5%;
+}
+
+.wireframe{
+    margin-left: -5%;
 }
 
 .sketchHarry{
@@ -394,37 +451,40 @@
     display:none;
 }
 
-.contenedorQue {
+.contenedorQueHarry {
     width: 110%;
     margin-left: -5%;
     margin-top: 9%;
     background: #FFFFFF;
     box-shadow: 1px 4px 20px -1px rgba(43, 43, 43, 0.3);
-    height: 44vh;
+    height: 38vh;
+
 
 }
 
-.Carrusel {
+.CarruselHarry {
     background: rgba(44, 148, 141, 0.6);
     width: 131%;
     margin-left: -15%;
+    height: 35vh;
 
 }
 
-.carruselespacio {
+.carruselespacioHarry {
     margin-top: 5%;
     margin-left: 10%;
 }
 
-.imguno {
+.imgunoHarry {
     width: 86%;
+    margin-left: -4%;
 }
 
 
-.puedesVer{
+.puedesVerHarry{
     width: 113%;
     margin-left: -8%;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .harryPotterImg{
@@ -457,9 +517,16 @@
         font-size: 0.9em;
     }
 
-    .lineaRojaJpTres,  .lineaRojaJpCuatro{
-        margin-left: -9%;
-        margin-left: -9%;
+    .lineaRojahp{
+        margin-top: 4.2%;
+    margin-left: 5%;
+    width: 11%;
+    }
+
+    .lineaRojahpDos{
+        margin-top: -4%;
+        margin-left: 84%;
+        width: 11%;
     }
 
     .cardContenedorHarry{
@@ -484,25 +551,25 @@
     margin-left: 11.3%;
     }
 
-    .Carrusel{
+    .CarruselHarry{
         width: 132%;
     }
 
-    .quete{
+    .queteHarry{
         font-size:1em;
     }
 
-    .contenedorQue{
+    .contenedorQueHarry{
     width: 115%;
     margin-left: -7%;
     }
 
-    .loquemas{
+    .loquemasHarry{
         font-size: 0.9em;
     width: 100%;
     }
 
-    .aquiPuedes{
+    .aquiPuedesHarry{
         font-size:1em;
         width: 114%;
     }
@@ -738,20 +805,20 @@
     margin-top: 29%;
 }
 
-.Carrusel{
+.CarruselHarry{
     margin-left: -51%;
     width: 167%;
     height: 55vh;
     margin-top: 4%;
 }
 
-.contenedorQue{
+.contenedorQueHarry{
     margin-left: -40.4%;
     width: 144%;
     height: 22vh;
 }
 
-.imguno{
+.imgunoHarry{
     width: 31%;
     margin-top: -1%;
     margin-left: 26%;
@@ -775,11 +842,11 @@
     margin-top: -0.8%;
 }
 
-.loquemas{
+.loquemasHarry{
     text-align: center;
 }
 
-.puedesVer{
+.puedesVerHarry{
     margin-top: 8%;
     /* display: flex; */
     /* justify-content: center; */
@@ -806,7 +873,7 @@
     margin-top: -1.4%;
 }
 
-.aquiPuedes{
+.aquiPuedesHarry{
     margin-top: 50%;
     margin-left: -162%;
     font-size: 1em;

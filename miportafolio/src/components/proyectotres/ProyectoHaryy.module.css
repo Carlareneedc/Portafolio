@@ -1,0 +1,51 @@
+
+
+.gavHarry,
+.japanQueenHarry{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: initial;
+    font-size: 1em;
+}
+
+
+.appParaHarry,
+.sitioGav {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 0.9em;
+    line-height: 140%;
+    width: 100%;
+}
+
+.verProyectoHarryUno, .verProyectoHarry{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+}
+
+.contenedorCardsHarry {
+    width: 110.6%;
+    display: flex;
+    margin-left: -5.3%;
+    margin-top: 12%;
+}
+
+@media screen and (min-width: 375px){
+    .contenedorCardsHarry{
+        margin-left: -7.3%;
+        width: 114.6%;
+    } 
+
+    .sitioGav, .appInformativaJapan{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width:1440px){
+    .contenedorCardsHarry{
+        width: 145%;
+        margin-left: -40.4%;
+        margin-top: 4%;
+    } 
+}

@@ -7,13 +7,18 @@ import vistamesero from "../assets/img/vistamesero.png";
 import pedidos from "../assets/img/pedidos.png";
 import FooterJapan from "./FooterJapan";
 import proyectotresVer from "../assets/img/puntosabout.png";
-import ProyectosJapan from "../components/proyectoDos/ProyectosJapan";
+import ProyectoHarry from '../components/proyectotres/ProyectoHarry'
 import JapanQueenProyectoVer from "../assets/img/japanqueennores.png";
 import experienciaPuntosHarry from "../assets/img/puntosjapanQueen.png";
 import humans from "../assets/img/humans.png";
 import flujoGrama from "../assets/img/flujopapel.png";
 import flujoGramaDigi from "../assets/img/flujodig.png";
-import sketch from '../assets/img/prototipobaja.jpg'
+import sketch from "../assets/img/prototipobaja.jpg";
+import wireframe from "../assets/img/newframe.jpg";
+import wireframedos from "../assets/img/2.jpg";
+import hpuno from "../assets/img/hpresult.png";
+import hpdos from "../assets/img/hpresultdos.png";
+import hptres from "../assets/img/hpresulttres.png";
 
 function JapanQueen() {
   return (
@@ -171,16 +176,25 @@ function JapanQueen() {
                       <ul className="datoslista">
                         <li className="infoyvisual">
                           Información y visualidad de las casas a las que
-                          pertenecen los personajes. <strong><i>(El usuario busca por
-                          ejemplo poder elegir una casa a la cual pertenecer
-                          según las particularidades de cada una)</i></strong>
+                          pertenecen los personajes.{" "}
+                          <strong>
+                            <i>
+                              (El usuario busca por ejemplo poder elegir una
+                              casa a la cual pertenecer según las
+                              particularidades de cada una)
+                            </i>
+                          </strong>
                         </li>
                         <li className="personajes">
                           Personajes principales y características. Cuales son
-                          los más relevantes: Protagonistas/Antagonistas. <strong><i>(El
-                          usuario busca encontrar una afinidad con los
-                          personajes de acuerdo a sus personalidades e
-                          identidades)</i></strong>
+                          los más relevantes: Protagonistas/Antagonistas.{" "}
+                          <strong>
+                            <i>
+                              (El usuario busca encontrar una afinidad con los
+                              personajes de acuerdo a sus personalidades e
+                              identidades)
+                            </i>
+                          </strong>
                         </li>
                         <li className="ocupaciones">
                           Ocupaciones o profesiones en Hogwarts. (El usuario
@@ -188,23 +202,27 @@ function JapanQueen() {
                         </li>
                         <li className="acceder">
                           Acceder a un glosario de palabras/hechizos/criaturas
-                          entre otros. <strong><i>(El usuario busca entender palabras que
-                          aparecen en los libros y películas)</i></strong>Es importante
-                          aclarar que este punto, está pensado como una mejora
-                          de la plataforma, ya que no necesariamente será
-                          implementada ahora.
+                          entre otros.{" "}
+                          <strong>
+                            <i>
+                              (El usuario busca entender palabras que aparecen
+                              en los libros y películas)
+                            </i>
+                          </strong>
+                          Es importante aclarar que este punto, está pensado
+                          como una mejora de la plataforma, ya que no
+                          necesariamente será implementada ahora.
                         </li>
                       </ul>
                       <p className="pormedioHarry">
-                        Para el desarrollo de esta plataforma, realicé una
+                        Para el desarrollo de esta plataforma, realizamos una
                         investigación previa para entender las necesidades de
                         nuestros usuarios con respecto a la navegación.
                       </p>
                       <p className="usuariosVerHarry">
-                        Acorde a dichas necesidades, construí un diagrama de
+                        Acorde a dichas necesidades, construimos un diagrama de
                         flujo en papel que representa una guía hacia lo que
-                        luego presenté como diagrama digital definitivo. según
-                        esto definí una planificación.
+                        luego presentamos como diagrama digital definitivo.
                       </p>
                       <div className="flujo">
                         <img
@@ -233,15 +251,47 @@ function JapanQueen() {
                           alt="flujogramadig"
                           src={flujoGramaDigi}
                         />
-                        
                       </div>
-                      <p className="sketch"><strong>Sketch, wireframe y prototipado</strong></p>
-                      <p className="enbase">En base a los datos recopilados definí los siguientes diseños:</p>
+                      <p className="sketch">
+                        <strong>Sketch, wireframe y prototipado</strong>
+                      </p>
+                      <p className="enbase">
+                        En base a los datos recopilados definimos este sketch y
+                        luego wireframe con correcciones agregadas.
+                      </p>
+                      <img className="sketchHarry" alt="sketch" src={sketch} />
+
                       <img
-                          className="sketchHarry"
-                          alt="sketch"
-                          src={sketch}
-                        />
+                        className="wireframe"
+                        alt="wireframe"
+                        src={wireframe}
+                      />
+                      <img
+                        className="wireframeDos"
+                        alt="wireframedos"
+                        src={wireframedos}
+                      />
+                      <p className="visualidad">
+                        Con respecto a la visualidad, elegimos imágenes que
+                        hacen referencia a ciertos objetos importantes en el
+                        mainstream de Harry Potter.{" "}
+                      </p>
+
+                      <p className="griff">
+                        En cuanto a la gama cromática, utilizamos el patrón de
+                        colores de la casa "Gryffindor", ya que la mayoría de
+                        nuestros usuarios declararon ser fanáticos de esta casa
+                        mágica. Si bien son dos colores, creemos que son los
+                        suficientes para mantener una visual elegante y
+                        distintiva, con el fin de no interferir con el resto de
+                        la información que se muestra.{" "}
+                      </p>
+                      <p className="nuestro">
+                        Nuestro principal objetivo es salirnos del imaginario
+                        típico de HP, en relación a esto, nos gustaría a futuro
+                        mejorar la página y utilizar una visualidad mucho más
+                        pictórica.
+                      </p>
                     </div>
                     <div className="contenedorHumans">
                       <img className="humans" alt="humans" src={humans} />
@@ -252,21 +302,42 @@ function JapanQueen() {
                         problema<hr className="lineaRojaSolucionDos"></hr>
                       </p>
                       <p className="segun">
-                        Según nuestra investigación, diferentes iteraciones y
-                        entrevistas de usuario, decidimos que la mejor solución
-                        sería diseñar una interfaz que funcione por medio de
-                        Tablet y computador, en la que como principal objetivo,
-                        se podrá tomar pedidos, eliminar y cambiar según la
-                        decisión del cliente.
+                        Luego de investigar y analizar los datos recopilados,
+                        concluimos que est app permitirá:
+                        <ul className="luegoDe">
+                          <li>
+                            Obtener referencias acerca del mundo de Harry
+                            Potter.
+                          </li>
+                          <li>
+                            Encontrar información de manera simple y dinámica.
+                          </li>
+                          <li>Entender fácil y rápidamente la información.</li>
+                        </ul>
+                        <p className="lamejor">
+                          La mejor manera de llevar a cabo estos hallazgos, fue
+                          realizando una versión para desktop y móvil.
+                        </p>
                       </p>
-                     
+
                       <a
                         target="_blank"
-                        href="https://burger-queen2020.web.app/"
+                        href="https://carlareneedc.github.io/SCL013-data-lovers/src/index.html"
                       >
-                        <p className="aquiPuedes">
+                        <p className="aquiPuedesHarry">
                           <strong>
-                            Aquí puedes saber más acerca de Japan Queen
+                            Puedes conocer la App Harry Potter Beginners acá
+                          </strong>
+                        </p>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://github.com/Carlareneedc/SCL013-data-lovers"
+                      >
+                        <p className="invgithubHarry">
+                          <strong>
+                            Puedes conocer más acerca de este caso de estudio
+                            aquí
                           </strong>
                         </p>
                       </a>
@@ -275,16 +346,16 @@ function JapanQueen() {
                         <hr className="lineaRojaResultadoDos"></hr>
                       </p>
                     </div>
-                    <div className="Carrusel">
+                    <div className="CarruselHarry">
                       <Carousel>
-                        <Carousel.Item className="carruselespacio">
+                        <Carousel.Item className="carruselespacioHarry">
                           <a
                             target="_blank"
-                            href="https://burger-queen2020.web.app/"
+                            href="https://carlareneedc.github.io/SCL013-data-lovers/src/index.html"
                           >
                             <img
-                              className="d-block imguno"
-                              src={pantallainicio}
+                              className="d-block imgunoHarry"
+                              src={hpuno}
                               alt="First slide"
                             />
                           </a>
@@ -292,11 +363,11 @@ function JapanQueen() {
                         <Carousel.Item className="carruselespacio">
                           <a
                             target="_blank"
-                            href="https://burger-queen2020.web.app/mesero"
+                            href="https://carlareneedc.github.io/SCL013-data-lovers/src/index.html"
                           >
                             <img
-                              className="d-block imguno"
-                              src={vistamesero}
+                              className="d-block imgunoHarry"
+                              src={hpdos}
                               alt="Third slide"
                             />
                           </a>
@@ -304,11 +375,11 @@ function JapanQueen() {
                         <Carousel.Item className="carruselespacio">
                           <a
                             target="_blank"
-                            href="https://burger-queen2020.web.app/chef"
+                            href="https://carlareneedc.github.io/SCL013-data-lovers/src/index.html"
                           >
                             <img
-                              className="d-block imguno"
-                              src={pedidos}
+                              className="d-block imgunoHarry"
+                              src={hptres}
                               alt="Third slide"
                             />
                           </a>
@@ -317,31 +388,29 @@ function JapanQueen() {
                     </div>
                     <Card
                       style={{ border: "none", borderRadius: "20px" }}
-                      className="contenedorQue"
+                      className="contenedorQueHarry"
                     >
                       <Card.Body>
                         <Card.Title>
-                          <p className="quete">
+                          <p className="queteHarry">
                             <hr className="lineaRojaque"></hr>¿Qué te gustó de
                             este proyecto?<hr className="lineaRojaqueDos"></hr>
                           </p>
                         </Card.Title>
                         <Card.Text>
-                          <p className="loquemas">
-                            Lo que más me gustó de este proyecto, fue poder
-                            darle una identidad visual al producto. Fue un
-                            desafío poder encontrar una imagen representativa y
-                            a la vez legible y eficaz. Finalmente creo que el
-                            resultado superó mis propias espectativas.
+                          <p className="loquemasHarry">
+                            Lo que más me gustó de este proyecto, fue el proceso
+                            de investigación y testeo. Cada hallazgo que tuvimos
+                            en estas fases, permitió que se logrará una visualidad distintiva.
                           </p>
                         </Card.Text>
                       </Card.Body>
                     </Card>
-                    <p className="puedesVer">
+                    <p className="puedesVerHarry">
                       <hr className="linearojaPuedes"></hr>Puedes ver otros
                       Proyectos<hr className="linearojaPuedesDos"></hr>
                     </p>
-                    <ProyectosJapan />
+                    <ProyectoHarry/>
                     <FooterJapan />
                   </div>
                 </div>
