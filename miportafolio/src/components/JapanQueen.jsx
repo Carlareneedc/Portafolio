@@ -166,6 +166,7 @@ function JapanQueen() {
                     <div className="solucion">
                       <p className="solucional"><hr className="lineaRojaSolucion"></hr>Solución al problema<hr className="lineaRojaSolucionDos"></hr></p>
                       <p className="segun">Según nuestra investigación, diferentes iteraciones y entrevistas de usuario, decidimos que la mejor solución sería diseñar una interfaz que funcione por medio de Tablet y computador, en la que como principal objetivo, se podrá tomar pedidos, eliminar y cambiar según la decisión del cliente.</p>
+                      <a target="_blank" href="https://burger-queen2020.web.app/"><p className="aquiPuedes"><strong>Aquí puedes saber más acerca de Japan Queen</strong></p></a> 
                       <p className="resultado">
                         <hr className="lineaRojaResultado"></hr>Resultado
                         <hr className="lineaRojaResultadoDos"></hr>
@@ -174,25 +175,25 @@ function JapanQueen() {
                     <div className="Carrusel">
                       <Carousel >
                         <Carousel.Item className="carruselespacio">
-                          <img
+                        <a target="_blank" href="https://burger-queen2020.web.app/"><img
                             className="d-block imguno"
                             src={pantallainicio}
                             alt="First slide"
-                          />
+                          /></a>
                         </Carousel.Item >
                         <Carousel.Item className="carruselespacio">
-                          <img
+                        <a target="_blank" href="https://burger-queen2020.web.app/mesero"><img
                             className="d-block imguno"
                             src={vistamesero}
                             alt="Third slide"
-                          />
+                          /></a>
                         </Carousel.Item>
                         <Carousel.Item className="carruselespacio">
-                          <img
+                        <a target="_blank" href="https://burger-queen2020.web.app/chef"><img
                             className="d-block imguno"
                             src={pedidos}
                             alt="Third slide"
-                          />
+                          /></a>
                         </Carousel.Item>
                       </Carousel>
                     </div>

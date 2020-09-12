@@ -1,19 +1,19 @@
-.contenedorJapanQueen {
+.contenedorHarryPotter {
     display: flex;
     justify-content: center;
 }
 
-.japanQueenimg {
+.harryPotter{
     margin-top: 6%;
 }
 
-.tituloJapan {
+.tituloHarry {
     margin-top: 10%;
 }
 
-.jp,
+.hp,
 .expJa,
-.textoProcesos,
+.textoProcesosHarry,
 .resultado,
 .puedesVer,
 .solucional{
@@ -52,36 +52,36 @@
     margin-left: 82.3%;
     margin-top: -6%;
 }
-.lineaRojaJp {
+.lineaRojahp {
     position: absolute;
-    width: 14%;
+    width: 6%;
     background: #D50019;
-    margin-left: 11.3%;
-    margin-top: 5.5%;
+    margin-left: 6.3%;
+    margin-top: 4.5%;
 }
 
 
-.lineaRojaJpDos {
+.lineaRojahpDos{
     position: absolute;
-    width: 14%;
+    width: 6%;
     background: #D50019;
-    margin-left: 75.3%;
+    margin-left: 88.3%;
     margin-top: -4.9%;
 
 
 }
 
-.jPes,
-.TextoInno,
-.desdeAqui,
-.algunos,
-.cambian,
-.textoQuien,
-.siEl,
-.pormedio,
-.usuariosVer,
-.mesero,
-.chef,
+.hpes,
+.TextoInnoHarry,
+.desdeAquiHarry,
+.algunosHarry,
+.cambianHarry,
+.textoQuienHarry,
+.siElHarry,
+.pormedioHarry,
+.usuariosVerHarry,
+.comoseHarry,
+.eseflujo,
 .segun,
 .aquiPuedes {
     font-family: Montserrat;
@@ -104,29 +104,29 @@
     width: 116%;
 }
 
-.desdeAqui {
+.desdeAquiHarry {
     margin-left: 0%;
 }
 
-.textoQuien {
+.textoQuienHarry {
     width: 99%;
     margin-left: -2%;
 }
 
-.siEl {
+.siElHarry {
     width: 105%;
     margin-left: -2%;
 }
 
-.rol {
+.rolHarry{
     display: flex;
     flex-direction: column;
     margin-left: 6%;
 }
 
-.rolTexto,
-.fechaDe,
-.actividades {
+.rolTextoHarry,
+.fechaDeHarry,
+.actividadesHarry {
     font-family: Montserrat;
     font-weight: bold;
     line-height: 30px;
@@ -134,16 +134,24 @@
     text-align: left;
     color: #000000;
 }
+.lineaRojaElHarry{
+    position: absolute;
+    width: 14%;
+    background: #D50019;
+    margin-left: 2.3%;
+    margin-top: 5.1%;
 
+}
 .fechaDe {
     margin-top: -3%;
 }
 
-.ux,
-.julio,
-.uxR,
-.proto,
-.diseñoUi {
+.uxHarry,
+.mayo,
+.uxRHarry,
+.protoHarry,
+.diseñoUiHarry,
+.testeo{
     font-family: Montserrat;
     font-size: 0.8em;
     text-align: left;
@@ -156,36 +164,49 @@
     margin-top: -3%;
 }
 
-.tagActividades {
+.tagActividadesHarry {
     display: flex;
     justify-content: space-evenly;
     margin-left: -5%;
     margin-top: 2%;
+    flex-flow: wrap;
 }
 
 
-.uxR {
+.uxRHarry {
     background: #FF967E;
     border-radius: 25px;
     width: 31vw;
     padding-left: 3%;
 }
 
-.proto {
-    background: rgba(254, 214, 123, 0.9);
+.protoHarry {
+    background: rgba(224, 119, 22, 0.59);
     border-radius: 25px;
     width: 25vw;
     padding-left: 3%;
 }
 
-.diseñoUi {
+.diseñoUiHarry{
     background: #EB8793;
     border-radius: 25px;
     width: 25vw;
     padding-left: 3%;
 }
 
-.experiencia {
+.testeo{
+    background: #FED474;
+    border-radius: 25px;
+    width: 19vw;
+    padding-left: 3%;
+    padding-right: -24%;
+    margin-left: -6%;
+    margin-right: 66%;
+    margin-top: -1%;
+}
+
+
+.experienciaHarry {
     display: flex;
     justify-content: center;
 }
@@ -195,48 +216,44 @@
     margin-top: 6%;
 }
 
-.lineaRojaJpTres {
+.lineaRojaJpTresHarry {
     position: absolute;
-    width: 88%;
+    width: 86%;
     background: #D50019;
     margin-top: -1%;
-    margin-left: -4%;
+    margin-left: 8.4%;
 
 }
 
-.lineaRojaJpCuatro {
+.lineaRojaJpCuatroHarry {
     position: absolute;
-    width: 88%;
+    width: 92%;
     background: #D50019;
     margin-top: 0.5%;
-    margin-left: -4%;
+    margin-left: 5%;
 
 }
 
-.TextoInno {
+.TextoInnoHarry {
     margin-left: 0%;
     width: 92%;
 }
 
-.textoExperiencia {
+.textoExperienciaHarry {
     margin-top: 4%;
 }
 
-.cardContenedor {
+.cardContenedorHarry{
     width: 89%;
     margin-left: 5.3%;
-    height: 103vh;
+    height: 135vh;
 }
 
-.lineaRojaEl {
-    position: absolute;
-    width: 14%;
-    background: #D50019;
-    margin-left: 2.3%;
-    margin-top: 5%;
+.elProblemaHarry {
+   
 }
 
-.lineaRojaElDos {
+.lineaRojaElDosHarry {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -244,7 +261,7 @@
     margin-top: -3.9%;
 }
 
-.lineaRojaProcesos {
+.lineaRojaProcesosHarry {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -252,7 +269,7 @@
     margin-top: 5.1%;
 }
 
-.lineaRojaProcesosDos {
+.lineaRojaProcesosDosHarry {
     position: absolute;
     width: 14%;
     background: #D50019;
@@ -260,36 +277,47 @@
     margin-top: -5%;
 }
 
-.algunos,
-.cambian {
+.algunosHarry,
+.cambianHarry {
     width: 109%;
     margin-left: -2%;
 }
 
-.procesos {
+.procesosHarry {
     margin-top: 22%;
 }
 
-.textoProcesos {}
 
-.pormedio {
+.pormedioHarry {
     margin-left: -8%;
-    width: 113%;
+    width: 117%;
 }
 
-.usuariosVer {
-    width: 112%;
-    margin-left: -8%;
-}
-
-.mesero {
-    width: 100%;
+.usuariosVerHarry {
+    width: 117%;
     margin-left: -8%;
 }
 
-.chef {
+.comoseHarry {
+    width: 118%;
     margin-left: -8%;
+    margin-top: 7%;
 }
+
+.eseflujo {
+    margin-left: -8%;
+    width: 116%;
+}
+
+.flujo, .flujodigital{
+    display: flex;
+    justify-content: center;
+}
+
+.flujograma, .flujogramaDig{
+    width: 86vw;
+}
+
 
 
 
@@ -350,11 +378,11 @@
     margin-top: 10%;
 }
 
-.japanQueenimgMov{
+.harryPotterImg{
     width: 60vw;
 }
 
-.experienciaPuntos{
+.experienciaPuntosHarry{
     display:none;
 }
 
@@ -363,7 +391,7 @@
 }
 
 @media screen and (min-width: 375px){
-    .jPes, .TextoInno, .desdeAqui, .algunos, .cambian, .textoQuien, .siEl, .pormedio, .usuariosVer, .mesero, .chef{
+    .jPes, .TextoInno, .desdeAqui, .algunosHarry, .cambianHarry, .textoQuienHarry, .siEl, .pormedioHarry, .usuariosVerHarry, .comoseHarry, .eseflujo{
         font-size: 1em;
         
     }
@@ -385,16 +413,16 @@
         margin-left: -9%;
     }
 
-    .cardContenedor{
+    .cardContenedorHarry{
         height: 137vh;
         margin-left: 6.3%;
     }
 
-    .pormedio, .usuariosVer, .mesero, .chef {
+    .pormedioHarry, .usuariosVerHarry, .comoseHarry, .eseflujo {
         margin-left: -6%;
     }
 
-    .usuariosVer{
+    .usuariosVerHarry{
         width: 115%;
     }
 
@@ -455,7 +483,7 @@
         width: 7%;
 }
 
-.contenedortextoJapan{
+.contenedortextoHarry{
     margin-left: 40%;
 }
 
@@ -551,35 +579,35 @@
     display:none;
 }
 
-.cardContenedor {
+.cardContenedorHarry {
     width: 85.4vw;
     margin-left: 6.9%;
     margin-top: 3%;
     height: 53vh;
 }
 
-.elProblema{
+.elProblemaHarry{
     font-size: 1.3em;
     text-align: left;
 }
 
-.lineaRojaEl{
+.lineaRojaElHarry{
     width: 6vw;
     margin-left: 17%;
     margin-top: 1.7%;
 }
 
-.lineaRojaElDos{
+.lineaRojaElDosHarry{
     display:none;
 }
 
-.contenedorAlgunosCambian{
+.contenedorAlgunosCambianHarry{
     display: flex;
     flex-direction: column;
     width: 22%;
 }
 
-.quienSe{
+.quienSeHarry{
     display: flex;
     flex-direction: column;
     margin-top: -18%;
@@ -591,22 +619,22 @@
     width: 101%;
 }
 
-.procesos{
+.procesosHarry{
     margin-top: 10%;
     margin-left: -36.1%;
     width: 73%;
 }
 
-.textoProcesos{
+.textoProcesosHarry{
     text-align: left;
     margin-left: -6.3%;
 }
 
-.lineaRojaProcesos{
+.lineaRojaProcesosHarry{
     display:none;
 }
 
-.lineaRojaProcesosDos{
+.lineaRojaProcesosDosHarry{
     width: 6vw;
     margin-top: -1.5%;
     margin-left: 9%;
