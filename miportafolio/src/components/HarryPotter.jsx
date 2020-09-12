@@ -200,16 +200,7 @@ function JapanQueen() {
                         se podrá tomar pedidos, eliminar y cambiar según la
                         decisión del cliente.
                       </p>
-                      <a
-                        target="_blank"
-                        href="https://burger-queen2020.web.app/"
-                      >
-                        <p className="aquiPuedes">
-                          <strong>
-                            Aquí puedes saber más acerca de Japan Queen
-                          </strong>
-                        </p>
-                      </a>
+                    
                       <p className="resultado">
                         <hr className="lineaRojaResultado"></hr>Resultado
                         <hr className="lineaRojaResultadoDos"></hr>
@@ -217,7 +208,7 @@ function JapanQueen() {
                     </div>
                     <div className="Carrusel">
                       <Carousel>
-                        <Carousel.Item className="carruselespacio">
+                        {/*<Carousel.Item className="carruselespacio">
                           <a
                             target="_blank"
                             href="https://burger-queen2020.web.app/"
@@ -228,8 +219,8 @@ function JapanQueen() {
                               alt="First slide"
                             />
                           </a>
-                        </Carousel.Item>
-                        <Carousel.Item className="carruselespacio">
+                </Carousel.Item>*/}
+                       {/* <Carousel.Item className="carruselespacio">
                           <a
                             target="_blank"
                             href="https://burger-queen2020.web.app/mesero"
@@ -240,8 +231,8 @@ function JapanQueen() {
                               alt="Third slide"
                             />
                           </a>
-                        </Carousel.Item>
-                        <Carousel.Item className="carruselespacio">
+            </Carousel.Item>*/}
+                       {/*} <Carousel.Item className="carruselespacio">
                           <a
                             target="_blank"
                             href="https://burger-queen2020.web.app/chef"
@@ -252,7 +243,7 @@ function JapanQueen() {
                               alt="Third slide"
                             />
                           </a>
-                        </Carousel.Item>
+        </Carousel.Item>*/}
                       </Carousel>
                     </div>
                     <Card
