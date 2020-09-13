@@ -13,13 +13,14 @@ import experienciaPuntosHarry from "../assets/img/puntosjapanQueen.png";
 import humans from "../assets/img/humans.png";
 import flujoGrama from "../assets/img/flujopapel.png";
 import flujoGramaDigi from "../assets/img/flujodig.png";
-import sketch from "../assets/img/prototipobaja.jpg";
+import sketch from "../assets/img/prototipobaja.png";
 import wireframe from "../assets/img/newframe.jpg";
-import wireframedos from "../assets/img/2.jpg";
+import wireframedos from "../assets/img/2.png";
 import hpuno from "../assets/img/hpresult.png";
 import hpdos from "../assets/img/hpresultdos.png";
 import hptres from "../assets/img/hpresulttres.png";
 import humansDos from '../assets/img/humaaansdos.png'
+import humantres from '../assets/img/humaaans (3).png'
 
 function HarryPotter() {
   return (
@@ -325,13 +326,23 @@ function HarryPotter() {
                           La mejor manera de llevar a cabo estos hallazgos, fue
                           realizando una versión para desktop y móvil.
                         </p>
+                        
                       </p>
+                      <img
+                        className="humanstres"
+                        alt="humantres"
+                        src={humantres}
+                      />
+                     
+
+                      
 
                   
                       <p className="resultadoHarry">
                         <hr className="lineaRojaResultadoHarry"></hr>Resultado
                         <hr className="lineaRojaResultadoDosHarry"></hr>
                       </p>
+                     
                     </div>
                     <div className="CarruselHarry">
                       <Carousel>

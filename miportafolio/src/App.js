@@ -41,7 +41,6 @@ function App() {
         <Route path="/HarryPotter" exact>
         <Navbar/>
         <HarryPotter/>
-       <Grids/>
         </Route>
         
         
