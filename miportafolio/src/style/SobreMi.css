@@ -57,7 +57,7 @@
     line-height: 30px;
 }
 
-.cardStyle{
+.cardStyle {
     width: 89.9vw;
     height: 50vh;
 }
@@ -97,6 +97,11 @@
     border: none;
     width: 14%;
     height: 9vh;
+    border-color: #FF3C38;
+}
+
+a:active {
+    border-color: #FF3C38;
 }
 
 .contenedorMotivaciones {
@@ -144,13 +149,13 @@
     margin-left: 6.7%;
 }
 
-.habilidades{
-   
+.habilidades {
+
     display: flex;
     flex-direction: column;
     width: 40vw;
     margin-right: 1%;
-    
+
 }
 
 .educacionTexto,
@@ -161,8 +166,7 @@
 .fig,
 .boos,
 .gitDos,
-.inv
-{
+.inv {
     font-family: Merriweather;
     font-weight: bold;
     font-size: 1.5em;
@@ -203,11 +207,11 @@
 
 
 
-.tagHabilidades{
+.tagHabilidades {
     display: flex;
-    
+
     flex-flow: wrap;
-  
+
     margin-left: -13%;
     margin-top: 3%;
 }
@@ -228,7 +232,7 @@
 .analitica,
 .adaptable,
 .sociable,
-.creativa{
+.creativa {
     font-family: Montserrat;
     font-size: 1em;
     font-weight: 600;
@@ -236,7 +240,8 @@
     width: auto;
     height: 6vh;
     background: rgba(37, 222, 178, 0.3);
-    padding-top: 1.3%;;
+    padding-top: 1.3%;
+    ;
     padding-left: 3%;
     padding-right: 3%;
     text-align: center;
@@ -248,7 +253,7 @@
 .analitica,
 .adaptable,
 .sociable,
-.creativa{
+.creativa {
     background: rgba(230, 203, 228, 0.62);
     border-radius: 25px;
     padding-top: 1.3%;
@@ -260,21 +265,21 @@
 .fig,
 .boos,
 .gitDos,
-.inv{
+.inv {
     line-height: 26px;
 }
 
 
-.habilidadesBlandas{
+.habilidadesBlandas {
     margin-left: -76%;
-    
+
     margin-top: 3%;
 }
 
 
 
 
-.user{
+.user {
     margin-left: 1%;
     padding-top: 1%;
 }
@@ -282,24 +287,25 @@
 .bench,
 .html,
 .react,
-.js{
+.js {
     padding-top: 1%;
 }
 
-.react{
+.react {
     margin-left: 1%;
 }
-.tagSobreMi{
+
+.tagSobreMi {
     display: flex;
     justify-content: left;
     /* flex-flow: row wrap; */
     margin-left: -55%;
     margin-top: 3%;
     margin-left: -13%;
-   
+
 }
 
-.tagSobreMiDos{
+.tagSobreMiDos {
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
@@ -308,7 +314,7 @@
     flex-flow: wrap;
 }
 
-.tagWire{
+.tagWire {
     display: flex;
     justify-content: left;
     margin-left: -14%;
@@ -316,24 +322,22 @@
     flex-flow: wrap;
 }
 
-.tagSobreMiTres{
+.tagSobreMiTres {
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
     width: 20%;
 }
 
-.tagHabilidadesDos{
+.tagHabilidadesDos {
     display: flex;
     flex-flow: wrap;
     width: 81%;
 }
 
-.dcu{
-    
-}
 
-.habilidadesTexto{
+
+.habilidadesTexto {
     margin-left: -75%;
 }
 
@@ -344,47 +348,61 @@
     justify-content: space-evenly;
 }*/
 
-.fechas{
+.fechas {
     display: flex;
     max-height: 3vh;
     margin-top: -3%;
 }
 
-.bootcampLab{
+.bootcampLab {
     margin-top: -6%;
 }
 
-.universidad{
+.universidad {
     margin-top: 7%;
 }
-.uniacc{
+
+.uniacc {
     margin-top: -3%;
 }
 
-.diplomado{
+.diplomado {
     width: 109%;
 }
 
-.fechasDos{
+.fechasDos {
     display: flex;
     max-height: 3vh;
     margin-top: -2%;
 }
 
-.fechasTres{
+.fechasTres {
     display: flex;
     max-height: 3vh;
     margin-top: -2%;
 }
 
-.artesVisuales{
-    margin-top:-3%;
+.artesVisuales {
+    margin-top: -3%;
 }
 
-.herramientas{
-    
+.verCurri {
+    width: 116%;
+    border-color: #FF3C38;
+    border-color: none;
+
+}
+
+.botonCv {
+    border-color: none;
+
+}
+
+
+.herramientas {
+
     margin-left: 6.6%;
-    
+
     margin-top: 5%;
 
     display: flex;
@@ -399,129 +417,141 @@
     margin-left: -12.6%;
 }
 
-.herrP, .ill, .figm, .trap, .gtd, .invA{
-   
+.herrP,
+.ill,
+.figm,
+.trap,
+.gtd,
+.invA {
+
     margin-top: 24%;
-    
+
 }
 
-.fi{
+.fi {
     margin-left: 6%;
 
 }
 
-.gtD{
+.gtD {
     margin-left: 30%;
 
 
 }
 
-.invA{
+.invA {
     margin-right: -38%;
     margin-top: 29%;
 }
 
- .ilus, .fig, .boos, .gitDos, .inv{
+.ilus,
+.fig,
+.boos,
+.gitDos,
+.inv {
     font-family: Montserrat;
     font-weight: 300;
-    font-size:1.5em;
+    font-size: 1.5em;
     margin-top: 7%;
     color: #000000;
 }
 
-.photo{
+.photo {
     font-family: Montserrat;
     font-weight: 300;
-    font-size:1.5em; 
+    font-size: 1.5em;
     margin-left: -1%;
     color: #000000;
 }
 
-.ilus{
+.ilus {
 
     font-family: Montserrat;
     font-weight: 300;
-    font-size:1.5em; 
+    font-size: 1.5em;
     color: #000000;
 
 }
 
-.ill{
-    margin-top:17%;
+.ill {
+    margin-top: 17%;
     margin-left: -10%;
-    
+
 }
 
-.illus{
+.illus {
     margin-left: -10%;
 }
 
-.figm{
+.figm {
     margin-left: -25%;
 }
 
-.trap{
+.trap {
     margin-top: 27%;
     margin-left: -4%;
 }
 
 
 
-.gtd{
+.gtd {
     margin-right: -32%;
 }
 
-.boos{
+.boos {
     margin-top: -1%;
 }
 
-.ph{
+.ph {
     margin-left: -2%;
 }
-.puntosResSobreMi{
-    display:none;
+
+.puntosResSobreMi {
+    display: none;
 }
 
 
 
-@media (min-width: 320px)and (max-width: 374px){
-    .puntosSobreMi{
+@media (min-width: 320px)and (max-width: 374px) {
+    .puntosSobreMi {
         display: none;
     }
 
 
-     .puntosResSobreMi{
-       
+    .puntosResSobreMi {
+
         display: block;
         margin-left: 8%;
 
-       
-       
+
+
     }
-    .herramientas{
+
+    .herramientas {
         margin-left: -1%;
     }
-    .puntosresSo{
+
+    .puntosresSo {
         width: 125%;
     }
-    
-    .contenedorTextoSobreMi{
+
+    .contenedorTextoSobreMi {
         width: 127%;
         margin-top: 4%;
         margin-left: 4%;
-   
-}
-    
 
-    .miNombreEs{
-        font-size: 0.9em;
-    width: 93%;
     }
 
-    .encabezadoTextoSobreMi{
+
+    .miNombreEs {
+        font-size: 0.9em;
+        width: 93%;
+    }
+
+    .encabezadoTextoSobreMi {
         margin-top: -138%;
         margin-left: 29%;
-    width: 77%;
+        width: 77%;
 
     }
 
@@ -530,22 +560,22 @@
         margin-left: 101%;
         width: 14%;
     }
-   
+
 
     .lineaRojaSobreMi {
         margin-top: 5.2%;
-    margin-left: -19%;
-    width: 14%;
+        margin-left: -19%;
+        width: 14%;
     }
 
-    .unPoco{
-        font-size:1.4em;
+    .unPoco {
+        font-size: 1.4em;
     }
 
-    .contenedorDisfruto{
+    .contenedorDisfruto {
         width: 135%;
         margin-left: 0%;
-    margin-top: 7%;
+        margin-top: 7%;
 
     }
 
@@ -557,306 +587,310 @@
         margin-top: 15%;
     }
 
-    .verCurri{
-        width: 77%;
-        margin-left: 35%;
+    .verCurri {
+        width: 129%;
+        margin-left: 27%;
 
     }
 
-    .cardStyle{
+    .cardStyle {
         width: 110vw;
         height: 136vh;
         margin-top: -4%;
     }
 
-    .contenedorCardText{
+    .contenedorCardText {
         display: flex;
-    flex-flow: row wrap;
+        flex-flow: row wrap;
     }
 
     .siBien {
         margin-top: 9%;
     }
 
-    .cardText{
+    .cardText {
         width: 100vw;
-    margin-left: -3%;
+        margin-left: -3%;
     }
 
-.contenedorMotivaciones{
-    width: 114%;
-    margin-top: 19%;
-    margin-left: 10%;
+    .contenedorMotivaciones {
+        width: 114%;
+        margin-top: 19%;
+        margin-left: 10%;
+    }
+
+    .cardTitle {
+        font-size: 1.4em;
+        text-align: left;
+    }
+
+    .cardTextDos {
+        width: 99vw;
+        margin-left: -4%;
+        margin-top: -3%;
+    }
+
+    .educacionHabilidades {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 3%;
+        margin-top: 10%;
+    }
+
+    .educacionTexto {
+        font-size: 1.4em;
+    }
+
+    .bootcamp,
+    .universidad {
+        font-size: 0.9em;
+    }
+
+    .universidad {
+        margin-top: 9%;
+    }
+
+    .frontEnd,
+    .diplomado,
+    .artes {
+        font-size: 1em;
+
+    }
+
+    .diplomado {
+        margin-top: -3%;
+    }
+
+    .educacion {
+        margin-left: 11%;
+    }
+
+    .bootcamp {
+        margin-top: 0%;
+    }
+
+    .frontEnd {
+        margin-top: 0%;
+    }
+
+    .fechas {
+        margin-top: -6%;
+    }
+
+    .fechasDos {
+        margin-top: -6%;
+    }
+
+    .artesVisuales {
+        margin-top: -6%;
+    }
+
+    .artes {
+        margin-top: 0%;
+    }
+
+    .fechasTres {
+        margin-top: -6%;
+    }
+
+    .textoHerramientas {
+        font-size: 1.4em;
+        margin-left: 14%;
+    }
+
+
+    .habilidades {
+        margin-top: 8%;
+        margin-left: 34%;
+        width: 100%;
+    }
+
+    .habilidadesTexto {
+        font-size: 1.4em;
+        margin-left: -54%;
+    }
+
+    .tagSobreMi {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+        width: 191%;
+        margin-left: -37%;
+    }
+
+    .tagWire {
+        width: 131%;
+        margin-left: -37%;
+        margin-top: -24%;
+    }
+
+    .user {
+        width: 40%;
+        margin-left: 55%;
+        font-size: 0.8em;
+        padding-top: 1.8%;
+    }
+
+    .design,
+    .dcu,
+    .wire {
+        font-size: 0.8em;
+        width: 36%;
+    }
+
+    .css {
+        margin-top: -18%;
+        margin-left: 78%;
+        padding-top: 2.5%;
+        font-size: 0.8em;
+    }
+
+    .bench {
+        margin-left: 97%;
+        margin-top: -18%;
+        font-size: 0.8em;
+        padding-top: 1.9%;
+    }
+
+
+    .react {
+        font-size: 0.8em;
+        padding-top: 2.5%;
+    }
+
+    .html {
+        font-size: 0.8em;
+        padding-top: 1.9%;
+        margin-left: 1%;
+    }
+
+    .js {
+        font-size: 0.8em;
+        padding-top: 2%;
+    }
+
+    .habilidadesBlandas {
+        font-size: 1.4em;
+        margin-left: -57%;
+    }
+
+    .tagHabilidades {
+        display: flex;
+        justify-content: left;
+        flex-flow: wrap;
+        margin-left: -35%;
+
+    }
+
+    .empatica,
+    .reflexiva,
+    .analitica,
+    .adaptable,
+    .sociable,
+    .creativa {
+        width: 31.1%;
+        font-size: 0.8em;
+        padding-top: 1.9%;
+    }
+
+    .herrP {
+        margin-left: -66%;
+        font-size: 1.1em;
+    }
+
+    .photo {
+        font-size: 1em;
+    }
+
+    .ilus {
+        font-size: 1.1em;
+        margin-left: -165%;
+    }
+
+    .ill {
+        margin-top: 58%;
+        margin-left: -23%;
+    }
+
+    .figm {
+        margin-left: -206%;
+        margin-top: -16%;
+
+    }
+
+    .fig {
+        font-size: 1.1em;
+    }
+
+    .boos {
+        font-size: 1.1em;
+
+        margin-top: 14%;
+
+        width: 195%;
+    }
+
+    .trap {
+        margin-top: -146%;
+    }
+
+
+
+    .gitDos {
+        font-size: 1.1em;
+    }
+
+    .inv {
+        font-size: 1.1em;
+    }
+
+    .giHu {
+        margin-top: -53%;
+        margin-left: 43%;
+    }
+
 }
 
-.cardTitle{
-    font-size:1.4em;
-    text-align: left;
-}
-
-.cardTextDos{
-    width: 99vw;
-    margin-left: -4%;
-    margin-top: -3%;
-}
-
-.educacionHabilidades{
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: 3%;
-    margin-top: 10%;
-}
-
-.educacionTexto{
-    font-size:1.4em;
-}
-
- .bootcamp, .universidad{
-     font-size:0.9em;
- }
-
- .universidad{
-    margin-top: 9%;
- }
-
- .frontEnd, .diplomado, .artes{
-    font-size:1em;  
-    
- }
-
- .diplomado{
-    margin-top: -3%;
- }
-
- .educacion{
-    margin-left: 11%;
- }
-
- .bootcamp{
-    margin-top: 0%;
- }
-
- .frontEnd{
-    margin-top: 0%;
- }
-
- .fechas{
-    margin-top: -6%;
- }
-
- .fechasDos {
-    margin-top: -6%;
- }
-
- .artesVisuales{
-    margin-top: -6%;
- }
-
- .artes{
-    margin-top: 0%;
- }
-
- .fechasTres{
-    margin-top: -6%;
- }
-
- .textoHerramientas{
-    font-size:1.4em;
-    margin-left: 14%;
-} 
- 
-
- .habilidades {
-    margin-top: 8%;
-    margin-left: 34%;
-    width: 100%;
- }
-
- .habilidadesTexto{
-    font-size:1.4em;
-    margin-left: -54%;
- }
-
- .tagSobreMi{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: left;
-    width: 191%;
-    margin-left: -37%;
- }
-
- .tagWire{
-    width: 131%;
-    margin-left: -37%;
-    margin-top: -24%;
- }
-
- .user{
-    width: 40%;
-    margin-left: 55%;
-    font-size: 0.8em;
-    padding-top: 1.8%;
- }
-
- .design,
-.dcu,
-.wire
-{
-    font-size: 0.8em;
-    width: 36%;
-}
-
-.css{
-    margin-top: -18%;
-    margin-left: 78%;
-    padding-top: 2.5%;
-    font-size: 0.8em;
-}
-
-.bench{
-    margin-left: 97%;
-    margin-top: -18%;
-    font-size: 0.8em;
-    padding-top: 1.9%;
-}
-
-
-.react
-{
-    font-size: 0.8em;
-    padding-top: 2.5%;
-}
-
-.html{
-    font-size: 0.8em;
-    padding-top: 1.9%;
-    margin-left: 1%;
-}
-.js{
-    font-size: 0.8em;
-    padding-top: 2%;
-}
-.habilidadesBlandas{
-    font-size:1.4em;
-    margin-left: -57%;
-}
-
-.tagHabilidades{
-    display: flex;
-    justify-content: left;
-    flex-flow: wrap;
-    margin-left: -35%;
-
-}
-
-.empatica,
-.reflexiva,
-.analitica,
-.adaptable,
-.sociable,
-.creativa{
-    width: 31.1%;
-    font-size: 0.8em;
-    padding-top: 1.9%;
-}
-
-.herrP {
-    margin-left: -66%;
-    font-size: 1.1em;
-}
-.photo{
-    font-size: 1em;
-}
-
-.ilus{
-    font-size: 1.1em;
-    margin-left: -165%;
-}
-
-.ill{
-    margin-top: 58%;
-    margin-left: -23%;
-}
-
-.figm {
-    margin-left: -206%;
-    margin-top: -16%;
-
-}
-
-.fig{
-    font-size: 1.1em;
-}
-
-.boos{
-    font-size: 1.1em;
-    
-    margin-top: 14%;
-    
-    width: 195%;
-}
-
-.trap{
-    margin-top: -146%;
-}
-
-
-
-.gitDos{
-    font-size: 1.1em;  
-}
-
-.inv{
-    font-size: 1.1em;  
-}
-
-.giHu{
-    margin-top: -53%;
-    margin-left: 43%;
-}
-
-}
 
 
 
 
-
-@media (min-width: 375px) and (max-width: 767px){
-    .puntosSobreMi{
+@media (min-width: 375px) and (max-width: 767px) {
+    .puntosSobreMi {
         display: none;
     }
 
-    .puntosResSobreMi{
-       
+    .puntosResSobreMi {
+
         display: flex;
         margin-left: 6%;
         width: 117%;
         margin-top: 3%;
-       
+
     }
 
-    .puntosresSo{
+    .puntosresSo {
         width: 125%;
     }
-    
-    .contenedorTextoSobreMi{
-        width: 127%;
-        
-    margin-top: 9%;
-   
-}
-    
 
-    .miNombreEs{
-        font-size: 1em;
-    width: 93%;
+    .contenedorTextoSobreMi {
+        width: 127%;
+
+        margin-top: 9%;
+
     }
 
-    .encabezadoTextoSobreMi{
+
+    .miNombreEs {
+        font-size: 1em;
+        width: 93%;
+    }
+
+    .encabezadoTextoSobreMi {
         margin-top: -141%;
         margin-left: 24%;
         width: 77%;
-  
+
 
     }
 
@@ -865,22 +899,22 @@
         margin-left: 101%;
         width: 14%;
     }
-   
+
 
     .lineaRojaSobreMi {
         margin-top: 5.2%;
-    margin-left: -19%;
-    width: 14%;
+        margin-left: -19%;
+        width: 14%;
     }
 
-    .unPoco{
+    .unPoco {
         font-size: 1.5em;
     }
 
-    .contenedorDisfruto{
+    .contenedorDisfruto {
         width: 135%;
         margin-left: -5%;
-    margin-top: 7%;
+        margin-top: 7%;
 
     }
 
@@ -892,281 +926,286 @@
         margin-top: 27%;
     }
 
-    .verCurri{
-        width: 77%;
-        margin-left: 30%;
+    .verCurri {
+        width: 129%;
+        margin-left: 27%;
+
     }
 
-    .cardStyle{
+    .cardStyle {
         width: 110vw;
         height: 122vh;
         margin-top: -4%;
     }
 
-    .contenedorCardText{
+    .contenedorCardText {
         display: flex;
-    flex-flow: row wrap;
+        flex-flow: row wrap;
     }
 
     .siBien {
         margin-top: 9%;
     }
 
-    .cardText{
+    .cardText {
         width: 100vw;
-    margin-left: -3%;
-    font-size: 1em;
+        margin-left: -3%;
+        font-size: 1em;
     }
 
-.contenedorMotivaciones{
-    width: 110%;
-    margin-top: 19%;
-    margin-left: 10%;
-}
+    .contenedorMotivaciones {
+        width: 110%;
+        margin-top: 19%;
+        margin-left: 10%;
+    }
 
-.cardTitle{
-    font-size: 1.5em;
-    text-align: left;
-}
+    .cardTitle {
+        font-size: 1.5em;
+        text-align: left;
+    }
 
-.cardTextDos{
-    width: 99vw;
-    margin-left: -4%;
-    margin-top: -3%;
-}
+    .cardTextDos {
+        width: 99vw;
+        margin-left: -4%;
+        margin-top: -3%;
+    }
 
-.educacionHabilidades{
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: 5%;
-    margin-top: 10%;
-}
+    .educacionHabilidades {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
 
-.educacionTexto{
-    font-size: 1.5em;
-}
+    .educacionTexto {
+        font-size: 1.5em;
+    }
 
- .bootcamp, .universidad{
-    font-size: 1.1em;
- }
+    .bootcamp,
+    .universidad {
+        font-size: 1.1em;
+    }
 
- .universidad{
-    margin-top: 9%;
- }
+    .universidad {
+        margin-top: 9%;
+    }
 
- .frontEnd, .diplomado, .artes{
-    font-size: 1.3em;
-    
- }
+    .frontEnd,
+    .diplomado,
+    .artes {
+        font-size: 1.3em;
 
- .marzoSeptiembre, .noviembre, .marzoNoviembre{
-    font-size: 1em;
- }
+    }
 
- .diplomado{
-    margin-top: -1%;
- }
+    .marzoSeptiembre,
+    .noviembre,
+    .marzoNoviembre {
+        font-size: 1em;
+    }
 
- .educacion{
-    margin-left: 6%;
- }
+    .diplomado {
+        margin-top: -1%;
+    }
 
- .bootcamp{
-    margin-top: 3%;
- }
+    .educacion {
+        margin-left: 6%;
+    }
 
- .frontEnd{
-    margin-top: 2%;
- }
+    .bootcamp {
+        margin-top: 3%;
+    }
 
- .fechas{
-    margin-top: -4%;
- }
+    .frontEnd {
+        margin-top: 2%;
+    }
 
- .fechasDos {
-    margin-top: -4%;
- }
+    .fechas {
+        margin-top: -4%;
+    }
 
- .artesVisuales{
-    margin-top: -6%;
- }
+    .fechasDos {
+        margin-top: -4%;
+    }
 
- .artes{
-    margin-top: 2%;
- }
+    .artesVisuales {
+        margin-top: -6%;
+    }
 
- .fechasTres{
-    margin-top: -4%;
- }
+    .artes {
+        margin-top: 2%;
+    }
 
- .textoHerramientas{
-    font-size:1.4em;
-} 
- 
+    .fechasTres {
+        margin-top: -4%;
+    }
 
- .habilidades {
-    margin-top: 13%;
-    margin-left: 34%;
-    width: 100%;
- }
-
- .habilidadesTexto{
-    font-size:1.4em;
-    margin-left: -81%;
-}
+    .textoHerramientas {
+        font-size: 1.4em;
+    }
 
 
- .tagSobreMi{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: left;
-    width: 191%;
-    margin-left: -44%;
-    margin-top: 6%;
- }
+    .habilidades {
+        margin-top: 13%;
+        margin-left: 34%;
+        width: 100%;
+    }
 
- .tagWire{
-    width: 131%;
-    margin-left: -44%;
-    margin-top: -24%;
- }
-
- .user{
-    width: 40%;
-    margin-left: 53%;
-    font-size: 0.8em;
-    padding-top: 1.8%;
-    margin-top: 2.1%;
- }
-
- .design,
-.dcu,
-.wire
-{
-    font-size: 0.8em;
-    width: 36%;
-}
-
-.css{
-    margin-top: -16%;
-    margin-left: 72%;
-    padding-top: 2.5%;
-    font-size: 0.8em;
-}
-
-.bench{
-    margin-left: 98%;
-    margin-top: -16%;
-    font-size: 0.8em;
-    padding-top: 1.9%;
-}
+    .habilidadesTexto {
+        font-size: 1.4em;
+        margin-left: -81%;
+    }
 
 
+    .tagSobreMi {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+        width: 191%;
+        margin-left: -44%;
+        margin-top: 6%;
+    }
 
-.react
-{
-    font-size: 0.8em;
+    .tagWire {
+        width: 131%;
+        margin-left: -44%;
+        margin-top: -24%;
+    }
+
+    .user {
+        width: 40%;
+        margin-left: 53%;
+        font-size: 0.8em;
+        padding-top: 1.8%;
+        margin-top: 2.1%;
+    }
+
+    .design,
+    .dcu,
+    .wire {
+        font-size: 0.8em;
+        width: 36%;
+    }
+
+    .css {
+        margin-top: -16%;
+        margin-left: 72%;
+        padding-top: 2.5%;
+        font-size: 0.8em;
+    }
+
+    .bench {
+        margin-left: 98%;
+        margin-top: -16%;
+        font-size: 0.8em;
+        padding-top: 1.9%;
+    }
+
+
+
+    .react {
+        font-size: 0.8em;
         padding-top: 2.4%;
 
-}
+    }
 
-.html{
-    font-size: 0.8em;
-    padding-top: 1.9%;
-    margin-left: 1%;
-}
-.js{
-    font-size: 0.8em;
-    padding-top: 2%;
-}
-.habilidadesBlandas{
-    font-size:1.4em;
-    margin-left: -83%;
-}
+    .html {
+        font-size: 0.8em;
+        padding-top: 1.9%;
+        margin-left: 1%;
+    }
 
-.tagHabilidades{
-    display: flex;
-    justify-content: left;
-    flex-flow: wrap;
-    margin-left: -43%;
-    margin-top: 6%;
+    .js {
+        font-size: 0.8em;
+        padding-top: 2%;
+    }
 
-}
+    .habilidadesBlandas {
+        font-size: 1.4em;
+        margin-left: -83%;
+    }
 
-.empatica,
-.reflexiva,
-.analitica,
-.adaptable,
-.sociable,
-.creativa{
-    width: 31.1%;
-    font-size: 0.8em;
-    padding-top: 1.9%;
-}
+    .tagHabilidades {
+        display: flex;
+        justify-content: left;
+        flex-flow: wrap;
+        margin-left: -43%;
+        margin-top: 6%;
 
-.herrP {
-    margin-left: -60%;
-    font-size: 1.1em;
-}
-.photo{
-    font-size: 1em;
-}
+    }
 
-.ilus{
-    font-size: 1.1em;
-    margin-left: -165%;
-}
+    .empatica,
+    .reflexiva,
+    .analitica,
+    .adaptable,
+    .sociable,
+    .creativa {
+        width: 31.1%;
+        font-size: 0.8em;
+        padding-top: 1.9%;
+    }
 
-.ill{
-    margin-top: 19%;
-    margin-left: 36%;
-}
+    .herrP {
+        margin-left: -60%;
+        font-size: 1.1em;
+    }
 
-.figm {
-    margin-left: -209%;
-    margin-top: -8%;
-}
+    .photo {
+        font-size: 1em;
+    }
 
-.fig{
-    font-size: 1.1em;
-}
+    .ilus {
+        font-size: 1.1em;
+        margin-left: -165%;
+    }
 
-.boos{
-    font-size: 1.1em;
-    
-    margin-top: 14%;
-    
-    width: 195%;
-}
+    .ill {
+        margin-top: 19%;
+        margin-left: 36%;
+    }
 
-.trap{
-    margin-top: -159%; 
-}
+    .figm {
+        margin-left: -209%;
+        margin-top: -8%;
+    }
+
+    .fig {
+        font-size: 1.1em;
+    }
+
+    .boos {
+        font-size: 1.1em;
+
+        margin-top: 14%;
+
+        width: 195%;
+    }
+
+    .trap {
+        margin-top: -159%;
+    }
 
 
 
-.gitDos{
-    font-size: 1.1em;  
-}
+    .gitDos {
+        font-size: 1.1em;
+    }
 
-.inv{
-    font-size: 1.1em;  
-}
+    .inv {
+        font-size: 1.1em;
+    }
 
-.giHu{
-    margin-top: -40%;
-    margin-left: 24%;
-}
+    .giHu {
+        margin-top: -40%;
+        margin-left: 24%;
+    }
 
-.herramientas{
-    margin-left: 11.6%;
-}
+    .herramientas {
+        margin-left: 11.6%;
+    }
 
-.ph{
-    margin-left: -30%;
-    margin-top: 8%;
-}
-.contenedorHerramientas{
+    .ph {
+        margin-left: -30%;
+        margin-top: 8%;
+    }
 
-}
 }

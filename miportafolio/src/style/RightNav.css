@@ -1,32 +1,36 @@
-.proyectos{
+.proyectos {
     margin-left: 9.5%;
     font-size: 22px;
-    
+
 }
-.sobreMi{
+
+.sobreMi {
     margin-left: 33%;
     font-size: 22px;
     width: 100%;
 }
-.contacto{
-   
+
+.contacto {
+
     margin-left: 102%;
     margin-top: -14%;
 }
-.inicio{
+
+.inicio {
     font-size: 22px;
     color: #595959;
-    
-    
+
+
 }
 
-.pro{
+.pro {
     color: #595959;
 }
 
-.pro:active, .pro:focus, .pro:hover{
-    
+.pro:active,
+.pro:focus,
+.pro:hover {
+
     color: #FF3C38;
     text-decoration: overline;
 }
-

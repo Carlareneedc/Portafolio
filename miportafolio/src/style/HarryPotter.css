@@ -350,7 +350,7 @@
     height: 136vh;
 }
 
-.elProblemaHarry {}
+
 
 .lineaRojaElDosHarry {
     position: absolute;
@@ -464,7 +464,7 @@
 .linearojaPuedesHarry,
 .linearojaPuedesDosHarry,
 .humansdos,
-.humanstres{
+.humanstres {
     display: none;
 }
 
@@ -533,7 +533,7 @@
 
     }
 
-    .hp{
+    .hp {
         margin-left: 2%;
     }
 
@@ -547,9 +547,7 @@
         margin-left: -6%;
     }
 
-    .hpes{
 
-    }
 
     .rolTextoHarry,
     .fechaDeHarry,
@@ -576,11 +574,12 @@
         margin-left: -3%;
     }
 
-    .lineaRojaJpTresHarry{
+    .lineaRojaJpTresHarry {
         width: 95%;
         margin-left: 1%;
     }
-    .lineaRojaJpCuatroHarry{
+
+    .lineaRojaJpCuatroHarry {
         width: 95%;
         margin-left: 2%;
     }
@@ -595,21 +594,39 @@
         height: 167vh;
         margin-left: 6.3%;
     }
-    .usuariosHarry, .usuariosque,.enbase,.visualidad , .personasque, .yatienen, .datos, .infoyvisual, .personajes, .ocupaciones, .acceder, .sketch, .enbase .visualidad, .griff, .nuestro{
+
+    .usuariosHarry,
+    .usuariosque,
+    .enbase,
+    .visualidad,
+    .personasque,
+    .yatienen,
+    .datos,
+    .infoyvisual,
+    .personajes,
+    .ocupaciones,
+    .acceder,
+    .sketch,
+    .enbase .visualidad,
+    .griff,
+    .nuestro {
         font-size: 1em;
-    margin-left: -3%;
+        margin-left: -3%;
     }
 
-    .visualidad, .griff, .nuestro{
+    .visualidad,
+    .griff,
+    .nuestro {
         width: 111%;
         margin-left: -6%;
     }
 
-    
 
-    .sketch, .enbase{
+
+    .sketch,
+    .enbase {
         margin-left: -5%;
-    
+
     }
 
     .pormedioHarry,
@@ -659,7 +676,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width:1440px) {
-    .harryPotterImg{
+    .harryPotterImg {
         display: flex;
         width: 32vw;
         margin-left: 7%;
@@ -670,13 +687,13 @@
 
     }
 
-    .wireframe{
+    .wireframe {
         margin-left: -8%;
-    width: 86.5vw;
+        width: 86.5vw;
 
     }
 
-    .humanstres{
+    .humanstres {
         display: flex;
         position: absolute;
         margin-left: 69%;
@@ -684,36 +701,42 @@
         height: 55vh;
     }
 
-    .visualidad, .griff, .nuestro{
+    .visualidad,
+    .griff,
+    .nuestro {
         width: 195%;
         margin-left: -8%;
         margin-top: 3%;
     }
 
-    .wireframeDos{
+    .wireframeDos {
         margin-left: -12%;
-    width: 90vw;
+        width: 90vw;
     }
 
-    .usuariosLista, .datos,.pormedioHarry,  .datoslista,  .usuariosVerHarry{
+    .usuariosLista,
+    .datos,
+    .pormedioHarry,
+    .datoslista,
+    .usuariosVerHarry {
         margin-left: -8%;
     }
 
-    .humansdos{
-    
+    .humansdos {
+
         display: flex;
-    position: absolute;
-    margin-left: 107%;
-    width: 30vw;
-    margin-top: 1%;
+        position: absolute;
+        margin-left: 107%;
+        width: 30vw;
+        margin-top: 1%;
 
     }
 
-    .flujogramaDig{
+    .flujogramaDig {
         margin-left: 1%;
     }
 
-  
+
 
     .hp {
         margin-top: -42%;
@@ -736,7 +759,7 @@
         margin-left: 43.7%;
     }
 
-    .lineaRojahpDos{
+    .lineaRojahpDos {
         display: none;
     }
 
@@ -747,14 +770,17 @@
         width: 10%;
         margin-top: -1%;
     }
-    .sketch, .enbase{
-    margin-left: -8%;
-    width: 148%;
-}
 
-.hpes {
-    width: 84%;
-}
+    .sketch,
+    .enbase {
+        margin-left: -8%;
+        width: 148%;
+    }
+
+    .hpes {
+        width: 84%;
+    }
+
     .uxRHarry {
         width: 9vw;
         padding-left: 33%;
@@ -779,7 +805,7 @@
         margin-right: -50%;
     }
 
-    .testeo{
+    .testeo {
         width: 6vw;
         /* padding-left: 33%; */
         font-size: 0.9em;
@@ -867,10 +893,10 @@
 
     .quienSeHarry {
         display: flex;
-    flex-direction: column;
-    margin-top: -24.3%;
-    margin-left: 28%;
-    width: 72%;
+        flex-direction: column;
+        margin-top: -24.3%;
+        margin-left: 28%;
+        width: 72%;
     }
 
     .siElHarry {
@@ -888,7 +914,7 @@
         margin-left: -8%;
     }
 
-    .usuariosHarry{
+    .usuariosHarry {
         margin-left: -8%;
     }
 
@@ -902,11 +928,11 @@
         margin-left: 9%;
     }
 
-    .luegoDe{
+    .luegoDe {
         margin-left: -3.9%;
     }
 
-    .lamejor{
+    .lamejor {
         margin-top: -2%;
     }
 
@@ -952,26 +978,27 @@
         margin-left: -93.1%;
     }
 
-    .flujo{
+    .flujo {
         display: flex;
-    /* justify-content: flex-end; */
-    position: absolute;
-    margin-left: 49.1%;
-    margin-top: -34%;
+        /* justify-content: flex-end; */
+        position: absolute;
+        margin-left: 49.1%;
+        margin-top: -34%;
 
     }
+
     .eseflujo {
         width: 197%;
         margin-left: -7.7%;
     }
 
-    .comoseHarry{
+    .comoseHarry {
         margin-top: 3%;
-    margin-left: -7.7%;
-    width: 197%;
+        margin-left: -7.7%;
+        width: 197%;
     }
 
-    .flujograma{
+    .flujograma {
         width: 82%;
         margin-left: 16%;
     }
@@ -1000,7 +1027,7 @@
         width: 38%;
         margin-top: -2%;
 
-    margin-left: 21%;
+        margin-left: 21%;
 
     }
 

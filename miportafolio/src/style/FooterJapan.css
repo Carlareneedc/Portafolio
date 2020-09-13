@@ -1,4 +1,4 @@
-.contenedorFooterJapan{
+.contenedorFooterJapan {
     background: #2C948D;
     width: 134%;
     margin-left: -18%;
@@ -6,7 +6,7 @@
     margin-top: 14%;
 }
 
-.textoFooterJapan{
+.textoFooterJapan {
     font-family: Merriweather;
     font-weight: 300;
     font-size: 1em;
@@ -15,57 +15,57 @@
     padding-top: 24%;
 }
 
-.carlaDiazJapan{
+.carlaDiazJapan {
     font-weight: bold;
 }
 
-.inconosFooterJapan{
+.inconosFooterJapan {
     margin-top: -27%;
 }
 
-@media screen and (min-width: 375px){
-    .contenedorFooterJapan{
+@media screen and (min-width: 375px) {
+    .contenedorFooterJapan {
         height: 24vh;
         width: 135%;
     }
 
-    .inconosFooterJapan{
+    .inconosFooterJapan {
         margin-left: 28.5%;
-    margin-top: -28%;
-    width: 46%;
+        margin-top: -28%;
+        width: 46%;
     }
 
-    .textoFooterJapan{
+    .textoFooterJapan {
         font-size: 0.9em;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width:1440px){
-    .contenedorFooterJapan{
+@media screen and (min-width: 768px) and (max-width:1440px) {
+    .contenedorFooterJapan {
         margin-left: -51%;
         width: 100vw;
         margin-left: -52%;
-    width: 99vw;
-    height: 14vh;
+        width: 99vw;
+        height: 14vh;
     }
 
-    .textoFooterJapan{
+    .textoFooterJapan {
         font-size: 1em;
         margin-top: 0.4%;
         margin-left: 6.5%;
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 2.2%;
-    width: 29%;
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 2.2%;
+        width: 29%;
 
     }
 
-    .bolaCristalJapan{
+    .bolaCristalJapan {
         font-size: 1.8em;
         margin-top: -1%;
     }
 
-    .inconosFooterJapan{
+    .inconosFooterJapan {
         display: flex;
         margin-top: -4.4%;
         justify-content: space-evenly;

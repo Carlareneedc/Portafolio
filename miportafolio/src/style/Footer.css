@@ -20,12 +20,12 @@
     font-weight: bold;
 }
 
-.bolaCristal{
+.bolaCristal {
     font-size: 1.8em;
     margin-top: -1%;
 }
 
-.inconosFooter{
+.inconosFooter {
     display: flex;
     margin-top: -4.4%;
     justify-content: space-evenly;
@@ -33,34 +33,34 @@
     margin-left: 79.6%;
 }
 
-@media (min-width: 320px)and (max-width: 374px){
-    .contenedorFooter{
+@media (min-width: 320px)and (max-width: 374px) {
+    .contenedorFooter {
         width: 122%;
         height: 25vh;
     }
 
-    .textoFooter{
+    .textoFooter {
         text-align: center;
         padding-top: 21%;
         margin-left: 5%;
 
     }
 
-    
 
-    .inconosFooter{
+
+    .inconosFooter {
         margin-left: 42.5%;
         margin-top: -28%;
     }
 }
 
-@media (min-width: 375px) and (max-width: 767px){
-    .contenedorFooter{
+@media (min-width: 375px) and (max-width: 767px) {
+    .contenedorFooter {
         width: 130%;
         height: 31vh;
     }
 
-    .textoFooter{
+    .textoFooter {
         text-align: center;
         padding-top: 24%;
         margin-left: 11%;
@@ -68,10 +68,9 @@
     }
 
 
-    .inconosFooter{
+    .inconosFooter {
         margin-left: 28.5%;
         margin-top: -28%;
         width: 46%;
-    } 
+    }
 }
-

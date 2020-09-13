@@ -1,17 +1,18 @@
-import React from "react";
-import RetratoSobreMi from "../components/RetratoSobreMi";
-import puntosSobreMi from "../assets/img/puntosabout.png";
-import "../style/SobreMi.css";
-import { Card } from "react-bootstrap";
-import calendar from "../assets/img/calendar.png";
-import photoshop from "../assets/img/photoshop.png";
-import illustrator from "../assets/img/illustrator.png";
-import figma from "../assets/img/figma.png";
-import boostrap from "../assets/img/boostrap.png";
-import githubdos from "../assets/img/github.png";
-import invision from "../assets/img/invission.png";
-import puntosResSo from "../assets/img/puntosresponsivesobremi.png";
+import React from 'react';
+import RetratoSobreMi from '../components/RetratoSobreMi';
+import puntosSobreMi from '../assets/img/puntosabout.png';
+import '../style/SobreMi.css';
+import { Card } from 'react-bootstrap';
+import calendar from '../assets/img/calendar.png';
+import photoshop from '../assets/img/photoshop.png';
+import illustrator from '../assets/img/illustrator.png';
+import figma from '../assets/img/figma.png';
+import boostrap from '../assets/img/boostrap.png';
+import githubdos from '../assets/img/github.png';
+import invision from '../assets/img/invission.png';
+import puntosResSo from '../assets/img/puntosresponsivesobremi.png';
 import FooterSobreMi from '../components/FooterSobreMi'
+import cv from '../assets/img/cv.pdf'
 
 function SobreMi() {
   return (
@@ -52,7 +53,7 @@ function SobreMi() {
         </p>
       </div>
       <div className="btnVerCurri">
-        <button className="verCurri">Ver curriculum</button>
+      <a className="botonCv"href={cv} target="blank"><button className="verCurri">Ver curriculum</button></a>
       </div>
       <div className="contenedorMotivaciones">
         <Card

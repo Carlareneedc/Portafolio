@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import contacto from '../assets/img/contacto.png'
-import '../style/RightNav.css'
-import {Link} from 'react-router-dom'
+import contacto from "../assets/img/contacto.png";
+import "../style/RightNav.css";
+import { Link } from "react-router-dom";
 
 const Ul = styled.ul`
   margin-left: -42%;
@@ -15,17 +15,20 @@ const Ul = styled.ul`
     font-family: Merriweather;
     color: #595959;
   }
-  .inicio{
+  .inicio {
     color: #595959;
   }
-  a:active, a:focus, a:hover, .inicioPro{
-    color: #FF3C38;
+  a:active,
+  a:focus,
+  a:hover,
+  .inicioPro {
+    color: #ff3c38;
     text-decoration: overline;
   }
-  
-  @media (min-width: 320px) and (max-width:374px){
+
+  @media (min-width: 320px) and (max-width: 374px) {
     flex-flow: column nowrap;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;
@@ -42,9 +45,9 @@ const Ul = styled.ul`
     }
   }
 
-  @media (min-width: 375px) and (max-width:767px) {
+  @media (min-width: 375px) and (max-width: 767px) {
     flex-flow: column nowrap;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;
@@ -64,10 +67,22 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <Link style={{textDecoration:"none"}} className="inicioPro" to="/"><li className="inicio">Inicio</li></Link>
-      <li className="proyectos"><a className="pro" href="#Proyectos">Proyectos</a></li>
-      <Link to="/SobreMi"><li className="sobreMi">Sobre Mi</li></Link>
-      <a href="mailto:carla.renee.diazc@gmail.com"><li className="contacto"><img className="contacto" alt="contacto" src={contacto}/></li></a>
+      <Link style={{ textDecoration: "none" }} className="inicioPro" to="/">
+        <li className="inicio">Inicio</li>
+      </Link>
+      <li className="proyectos">
+        <a className="pro" href="#Proyectos">
+          Proyectos
+        </a>
+      </li>
+      <Link to="/SobreMi">
+        <li className="sobreMi">Sobre Mi</li>
+      </Link>
+      <a href="mailto:carla.renee.diazc@gmail.com">
+        <li className="contacto">
+          <img className="contacto" alt="contacto" src={contacto} />
+        </li>
+      </a>
     </Ul>
   );
 };

@@ -1,26 +1,23 @@
-import React from "react";
-import "../style/HarryPotter.css";
-import harrypotter from "../assets/img/harrypotter.png";
-import { Card, Carousel } from "react-bootstrap";
-import pantallainicio from "../assets/img/pantallainicio.png";
-import vistamesero from "../assets/img/vistamesero.png";
-import pedidos from "../assets/img/pedidos.png";
+import React from 'react';
+import '../style/HarryPotter.css';
+import harrypotter from '../assets/img/harrypotter.png';
+import { Card, Carousel } from 'react-bootstrap';
 import FooterHarry from '../components/FooterHarry'
 import proyectotresVer from "../assets/img/puntosabout.png";
 import ProyectoHarry from '../components/proyectotres/ProyectoHarry'
-import JapanQueenProyectoVer from "../assets/img/japanqueennores.png";
-import experienciaPuntosHarry from "../assets/img/puntosjapanQueen.png";
-import humans from "../assets/img/humans.png";
-import flujoGrama from "../assets/img/flujopapel.png";
-import flujoGramaDigi from "../assets/img/flujodig.png";
-import sketch from "../assets/img/prototipobaja.png";
-import wireframe from "../assets/img/newframe.jpg";
-import wireframedos from "../assets/img/2.png";
-import hpuno from "../assets/img/hpresult.png";
-import hpdos from "../assets/img/hpresultdos.png";
-import hptres from "../assets/img/hpresulttres.png";
-import humansDos from '../assets/img/humaaansdos.png'
-import humantres from '../assets/img/humaaans (3).png'
+import JapanQueenProyectoVer from '../assets/img/japanqueennores.png';
+import experienciaPuntosHarry from '../assets/img/puntosjapanQueen.png';
+import humans from '../assets/img/humans.png';
+import flujoGrama from '../assets/img/flujopapel.png';
+import flujoGramaDigi from '../assets/img/flujodig.png';
+import sketch from '../assets/img/prototipobaja.png';
+import wireframe from '../assets/img/newframe.jpg';
+import wireframedos from '../assets/img/2.png';
+import hpuno from '../assets/img/hpresult.png';
+import hpdos from '../assets/img/hpresultdos.png';
+import hptres from '../assets/img/hpresulttres.png';
+import humansDos from '../assets/img/humaaansdos.png';
+import humantres from '../assets/img/humaaans (3).png';
 
 function HarryPotter() {
   return (
