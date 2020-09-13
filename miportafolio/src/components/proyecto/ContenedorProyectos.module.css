@@ -16,10 +16,14 @@
     line-height: 140%;
 }
 
-.verProyecto {
+.verProyecto,.verProyectoUno{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1em;
+    
 }
+
+
+
+
 
 .contenedorCards {
     width: 86.6%;
@@ -32,6 +36,10 @@
         width: 114%;
         margin-left: 4%;
         margin-top: 5%;
+    }
+
+    .verProyecto,.verProyectoUno{
+        font-size:1.3em;
     }
 }
 

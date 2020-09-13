@@ -371,6 +371,32 @@
       
         font-size: 1em;
     }
+
+    .lineaRojaJp{
+        position: absolute;
+        width: 14%;
+        background: #D50019;
+        margin-left: 11.3%;
+        margin-top: 3.5%;
+    }
+
+    
+.lineaRojaProcesos {
+    position: absolute;
+    width: 14%;
+    background: #D50019;
+    margin-left: 62.3%;
+    margin-top: 4.1%;
+}
+
+.lineaRojaSolucionDos {
+    position: absolute;
+    width: 11%;
+    background: #D50019;
+    margin-left: 84.3%;
+    margin-top: -5%;
+}
+    
     
     .rolTexto, .fechaDe, .actividades{
         font-size: 1.2em;
@@ -657,7 +683,7 @@
 }
 
 .Carrusel{
-    margin-left: -51%;
+    margin-left: -52%;
     width: 167%;
     height: 55vh;
     margin-top: 4%;

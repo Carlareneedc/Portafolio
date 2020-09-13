@@ -13,7 +13,7 @@ function Footer() {
             <div className="inconosFooter">
             <a target="_blank" href="https://github.com/Carlareneedc"><img className="git" alt="git" src={gitHub}/></a>
             <a target="_blank" href="https://www.linkedin.com/in/carladiazc/"><img className="linkedin" alt="linkedin" src={linkeDin}/></a>
-            <img className="correo" alt="correo" src={correo}/>
+            <a href="mailto:carla.renee.diazc@gmail.com"><img className="correo" alt="correo" src={correo}/></a>
             </div> 
             </div>
         </div>

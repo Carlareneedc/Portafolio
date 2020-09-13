@@ -5,7 +5,7 @@ import { Card, Carousel } from "react-bootstrap";
 import pantallainicio from "../assets/img/pantallainicio.png";
 import vistamesero from "../assets/img/vistamesero.png";
 import pedidos from "../assets/img/pedidos.png";
-import FooterJapan from "./FooterJapan";
+import FooterHarry from '../components/FooterHarry'
 import proyectotresVer from "../assets/img/puntosabout.png";
 import ProyectoHarry from '../components/proyectotres/ProyectoHarry'
 import JapanQueenProyectoVer from "../assets/img/japanqueennores.png";
@@ -409,7 +409,7 @@ function HarryPotter() {
                       Proyectos<hr className="linearojaPuedesDosHarry"></hr>
                     </p>
                     <ProyectoHarry/>
-                    <FooterJapan />
+                    <FooterHarry />
                   </div>
                 </div>
               </Card.Body>

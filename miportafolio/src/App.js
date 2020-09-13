@@ -31,7 +31,10 @@ function App() {
         <Route path="/SobreMi" exact>
           
         <Navbar/>
+       
         <SobreMi/>
+      
+         
        
         </Route>
         <Route path="/JapanQueen" exact>

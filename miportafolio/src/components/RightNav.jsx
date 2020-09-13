@@ -15,7 +15,10 @@ const Ul = styled.ul`
     font-family: Merriweather;
     color: #595959;
   }
-  a:active, a:focus, a:hover {
+  .inicio{
+    color: #595959;
+  }
+  a:active, a:focus, a:hover, .inicioPro{
     color: #FF3C38;
     text-decoration: overline;
   }
@@ -64,7 +67,7 @@ const RightNav = ({ open }) => {
       <Link style={{textDecoration:"none"}} className="inicioPro" to="/"><li className="inicio">Inicio</li></Link>
       <li className="proyectos"><a className="pro" href="#Proyectos">Proyectos</a></li>
       <Link to="/SobreMi"><li className="sobreMi">Sobre Mi</li></Link>
-      <li className="contacto"><img className="contacto" alt="contacto" src={contacto}/></li>
+      <a href="mailto:carla.renee.diazc@gmail.com"><li className="contacto"><img className="contacto" alt="contacto" src={contacto}/></li></a>
     </Ul>
   );
 };

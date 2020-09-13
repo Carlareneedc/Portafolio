@@ -42,7 +42,7 @@
     .textoFooter{
         text-align: center;
         padding-top: 21%;
-        margin-left: 8%;
+        margin-left: 5%;
 
     }
 
@@ -63,12 +63,10 @@
     .textoFooter{
         text-align: center;
         padding-top: 24%;
-        margin-left: 14%;
+        margin-left: 11%;
+        font-size: 1.1em;
     }
 
-    .carlaDiaz{
-
-    }
 
     .inconosFooter{
         margin-left: 28.5%;

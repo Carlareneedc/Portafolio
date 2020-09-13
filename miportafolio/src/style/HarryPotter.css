@@ -346,7 +346,7 @@
 
 .cardContenedorHarry {
     width: 89%;
-    margin-left: 5.3%;
+    margin-left: 5.4%;
     height: 136vh;
 }
 
@@ -470,7 +470,7 @@
 
 .contenedorQueHarry {
     width: 110%;
-    margin-left: -5%;
+    margin-left: -3%;
     margin-top: 9%;
     background: #FFFFFF;
     box-shadow: 1px 4px 20px -1px rgba(43, 43, 43, 0.3);
@@ -481,7 +481,7 @@
 
 .CarruselHarry {
     background: rgba(44, 148, 141, 0.6);
-    width: 131%;
+    width: 132%;
     margin-left: -15%;
     height: 35vh;
 
@@ -985,7 +985,7 @@
 
     .CarruselHarry {
         margin-left: -53%;
-        width: 167%;
+        width: 168%;
         height: 55vh;
         margin-top: 4%;
     }
@@ -998,7 +998,8 @@
 
     .imgunoHarry {
         width: 38%;
-    margin-top: -3%;
+        margin-top: -2%;
+
     margin-left: 21%;
 
     }

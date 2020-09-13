@@ -100,9 +100,12 @@
 }
 
 .contenedorMotivaciones {
+    width: 85.4vw;
     display: flex;
     justify-content: center;
     margin-top: 5%;
+    margin-left: 6.8%;
+
 
 }
 
@@ -138,7 +141,7 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    margin-left: 5.7%;
+    margin-left: 6.7%;
 }
 
 .habilidades{
@@ -146,6 +149,7 @@
     display: flex;
     flex-direction: column;
     width: 40vw;
+    margin-right: 1%;
     
 }
 
@@ -379,7 +383,7 @@
 
 .herramientas{
     
-    margin-left: 5.6%;
+    margin-left: 6.6%;
     
     margin-top: 5%;
 
@@ -504,6 +508,7 @@
     .contenedorTextoSobreMi{
         width: 127%;
         margin-top: 4%;
+        margin-left: 4%;
    
 }
     
@@ -539,7 +544,7 @@
 
     .contenedorDisfruto{
         width: 135%;
-        margin-left: -5%;
+        margin-left: 0%;
     margin-top: 7%;
 
     }
@@ -849,7 +854,7 @@
 
     .encabezadoTextoSobreMi{
         margin-top: -141%;
-        margin-left: 6%;
+        margin-left: 24%;
         width: 77%;
   
 

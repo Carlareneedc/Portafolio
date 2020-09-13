@@ -24,7 +24,7 @@ function ProyectosJapan() {
     </Card.Body>
   </Card>
   <Card style={{border:"none", borderRadius:"20px", boxShadow:"1px 4px 20px -1px rgba(43, 43, 43, 0.3)"}}>
-    <Card.Img variant="top" src={proyectotres} />
+    <Card.Img style={{marginTop:"-1%"}}variant="top" src={proyectotres} />
     <Card.Body>
       <Card.Title><h5 className={style.harryPotterJapan}>Harry Potter Beginners</h5></Card.Title>
       <Card.Text>

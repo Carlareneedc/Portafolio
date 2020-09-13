@@ -20,7 +20,7 @@
     font-weight: bold;
 }
 
-.bolaCristal{
+.bolaCristalSobreMi{
     font-size: 1.8em;
     margin-top: -1%;
 }
@@ -36,13 +36,13 @@
 @media (min-width: 320px)and (max-width: 374px){
     .contenedorFooterSobreMi{
         width: 135%;
-        height: 25vh;
+        height: 27vh;
     }
 
     .textoFooterSobreMi {
         text-align: center;
         padding-top: 21%;
-        margin-left: 7%;
+        margin-left: 5%;
         font-size: 1.1em;
 
     }
@@ -51,7 +51,7 @@
 
     .inconosFooterSobreMi{
         margin-left: 42.5%;
-        margin-top: -24%;
+        margin-top: -28%;
     }
 }
 
@@ -63,16 +63,17 @@
 
     .textoFooterSobreMi{
         text-align: center;
-        padding-top: 24%;
-        margin-left: 14%;
+    padding-top: 24%;
+    margin-left: 11%;
+    font-size: 1.1em;
     }
 
     
 
     .inconosFooterSobreMi{
         margin-left: 28.5%;
-        margin-top: -28%;
-        width: 46%;
+    margin-top: -28%;
+    width: 46%;
     } 
 }
 

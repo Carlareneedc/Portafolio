@@ -19,7 +19,7 @@ function ContenedorProyectos() {
       <Card.Title><h5 className={style.japanQueen}>Japan Queen</h5></Card.Title>
       <Card.Text>
         <p className={style.appPara}>App para restaurantes que se origina como solución a la gestión de pedidos, eliminando el uso de comandas y toma de ordenes a mano.</p>
-        <Link to="JapanQueen"><Button className={style.verProyecto} style ={{borderColor:"#FF3C38", backgroundColor:"#FF3C38", fontWeight:"bold", display:"flex", marginTop:"0%"}} >Ver Proyecto</Button></Link>
+        <Link to="JapanQueen"><Button className={style.verProyectoUno} style ={{borderColor:"#FF3C38", backgroundColor:"#FF3C38", fontWeight:"bold", display:"flex", marginTop:"0%"}} >Ver Proyecto</Button></Link>
       </Card.Text>
     </Card.Body>
     
